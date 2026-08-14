@@ -1,0 +1,33 @@
+{
+  "toast": {
+    "policyNotFound": "Policy not found",
+    "productNotFound": "Product not found",
+    "claimNotFound": "Claim not found",
+    "claimIncomplete": "Please complete all claim fields",
+    "claimSubmitted": "Claim filed for policy {{policyNo}}",
+    "checkoutDeclarationMissing": "Please confirm the policyholder declaration",
+    "checkoutSubmitted": "Application submitted. Payment coming soon",
+    "companyUpdated": "Company info updated",
+    "accountUpdated": "Account info updated",
+    "passwordChanged": "Password updated",
+    "languageChanged": "Language changed",
+    "sessionExpired": "Session expired, please log in again",
+    "networkError": "Network error, please retry"
+  },
+  "validation": {
+    "required": "Required",
+    "phone": "Please enter a valid phone ({{locale}} format)",
+    "email": "Please enter a valid email",
+    "nif": "Please enter a valid NIF/CIF",
+    "iban": "Please enter a valid IBAN",
+    "minLength": "At least {{min}} characters"
+  },
+  "modal": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "scrollHint": "Scroll to read all the content",
+    "readPrompt": "Please read before confirming",
+    "readCountdown": "Confirm ({{count}}s)",
+    "readConfirm": "I have read and confirm the application"
+  }
+}

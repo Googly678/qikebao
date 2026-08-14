@@ -1,0 +1,296 @@
+.page {
+  min-height: 100%;
+  background: var(--color-parchment);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px 16px 120px;
+}
+
+.summaryCard, .formSection, .noticeSection {
+  background: var(--color-ivory);
+  border-radius: var(--radius-featured);
+  padding: 20px;
+  border: 1px solid var(--color-border-cream);
+  box-shadow: var(--shadow-whisper);
+  margin-bottom: 16px;
+}
+
+.insurer {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-size: var(--text-label);
+  color: var(--color-terracotta);
+  letter-spacing: var(--ls-label);
+}
+
+.productName {
+  font-family: var(--font-serif);
+  font-size: var(--text-sub-sm);
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--color-text-primary);
+  line-height: var(--lh-sub-sm);
+}
+
+.priceRow, .noticeRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  color: var(--color-text-olive);
+}
+
+.priceRow strong, .noticeRow strong {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-body-std);
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--color-text-primary);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+  min-width: 0;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.fieldLabel {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+}
+
+.fieldInput {
+  width: 100%;
+  height: 48px;
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-generous);
+  background: var(--color-parchment);
+  padding: 0 14px;
+  box-sizing: border-box;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  color: var(--color-text-primary);
+  transition: border-color 0.15s;
+}
+
+.fieldInput:focus {
+  border-color: var(--color-focus);
+  box-shadow: 0 0 0 2px rgba(56,152,236,0.15);
+}
+
+.bottomBar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--bottom-nav-height) + env(safe-area-inset-bottom, 0px));
+  padding: 12px 16px 0;
+  display: flex;
+  gap: 12px;
+  background: linear-gradient(180deg, rgba(245,244,237,0) 0%, rgba(245,244,237,0.97) 30%);
+}
+
+.totalBox {
+  flex: 1;
+  height: 52px;
+  border-radius: var(--radius-standard);
+  background: var(--color-ivory);
+  border: 1px solid var(--color-border-warm);
+  padding: 0 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+}
+
+.totalBox strong {
+  font-family: var(--font-serif);
+  font-size: var(--text-body-std);
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.payBtn {
+  flex: 1.2;
+  height: 52px;
+  border-radius: var(--radius-standard);
+  background: var(--color-terracotta);
+  color: var(--color-ivory);
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  box-shadow: var(--shadow-ring-terra);
+}
+
+.backBtn {
+  flex: 1;
+  height: 52px;
+  border-radius: var(--radius-standard);
+  background: var(--color-ivory);
+  border: 1px solid var(--color-border-warm);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+}
+
+/* Section header with numbered badge */
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 10px;
+}
+
+.sectionIndex {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--color-terracotta);
+  color: var(--color-ivory);
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.sectionTitleText {
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+/* Two-column row */
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.row2 > * {
+  min-width: 0;
+}
+
+/* Checkbox items */
+.checkGroupLabel {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+  margin-bottom: 8px;
+}
+
+.checkItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-generous);
+  background: var(--color-parchment);
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1.5px solid var(--color-border-warm);
+  background: var(--color-ivory);
+  flex-shrink: 0;
+  margin-top: 1px;
+  transition: background 0.15s, border-color 0.15s;
+  position: relative;
+}
+
+.checkboxChecked {
+  background: var(--color-terracotta);
+  border-color: var(--color-terracotta);
+}
+
+.checkboxChecked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: 2px solid white;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+}
+
+.checkLabel {
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  color: var(--color-text-primary);
+  line-height: 1.4;
+}
+
+/* Percent input row */
+.percentRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.percentSign {
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  color: var(--color-text-stone);
+  flex-shrink: 0;
+}
+
+/* Textarea */
+.textarea {
+  width: 100%;
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-generous);
+  background: var(--color-parchment);
+  padding: 12px 14px;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  color: var(--color-text-primary);
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.textarea:focus {
+  border-color: var(--color-focus);
+  box-shadow: 0 0 0 2px rgba(56,152,236,0.15);
+  outline: none;
+}
+
+/* Year title inside year cards */
+.yearTitle {
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 14px;
+}

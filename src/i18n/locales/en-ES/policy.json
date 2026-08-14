@@ -1,0 +1,43 @@
+{
+  "pageTitle": "Policies",
+  "pageSubtitle": "View all active policies, coverage usage and claims history",
+  "searchPlaceholder": "Search by policy no., product or insured",
+  "filter": {
+    "category": "Category",
+    "subject": "Subject",
+    "insurer": "Insurer"
+  },
+  "card": {
+    "insurer": "Insurer",
+    "insured": "Policyholder",
+    "coverage": "Coverage / Remaining",
+    "coverageWithValues": "{{total}}k € / {{remaining}}k €",
+    "coverageSuffix": "k €",
+    "view": "View detail"
+  },
+  "detail": {
+    "title": "Policy detail",
+    "policyNo": "Policy no.",
+    "period": "Coverage period",
+    "totalCoverage": "Total coverage",
+    "usedCoverage": "Used coverage",
+    "premium": "Premium",
+    "remainingCoverage": "Remaining coverage",
+    "claimHistory": "Claims history",
+    "noClaimHistory": "No claims recorded",
+    "currency": "k €"
+  },
+  "document": {
+    "title": "Electronic policy",
+    "downloadProtocol": "Download service agreement",
+    "downloadInvoice": "Download e-invoice",
+    "invoice": "E-invoice",
+    "orderNo": "Order no.",
+    "amount": "Amount",
+    "issuedAt": "Issued at"
+  },
+  "renewal": {
+    "banner": "{{count}} policies expire within {{days}} days",
+    "cta": "Renew now"
+  }
+}

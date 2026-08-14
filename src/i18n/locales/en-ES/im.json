@@ -1,0 +1,35 @@
+{
+  "channels": {
+    "insure-service": "Insurance service",
+    "claim-service": "Claims service",
+    "announcement": "Announcements",
+    "renewal-30d": "Renewal reminders",
+    "default": "Support"
+  },
+  "headerSubtitle": "Live support",
+  "close": "Close",
+  "send": "Send",
+  "inputPlaceholder": "Type a message...",
+  "welcome": "Hello! Welcome to the {{channel}}, we are at your service.",
+  "me": "Me",
+  "messagesPage": {
+    "title": "Messages",
+    "notice": "These channels are official system channels",
+    "latest": {
+      "insure": "Hi, welcome to the insurance service. Feel free to ask us anytime.",
+      "claim": "For any claim, contact us 24/7.",
+      "announcement": "[Important] Freight insurance rate update — please check your latest policy.",
+      "renewal": "{{count}} policies expire within 30 days. Tap to open the renewal center."
+    },
+    "descriptions": {
+      "insure": "Consulting, application help and renewal reminders",
+      "claim": "Claims filing, progress tracking and document submission",
+      "announcement": "Product updates, regulatory changes and important notices",
+      "renewal": "T-30/60/90 expiry alerts and auto-renewal updates"
+    },
+    "time": {
+      "justNow": "Just now",
+      "yesterday": "Yesterday"
+    }
+  }
+}

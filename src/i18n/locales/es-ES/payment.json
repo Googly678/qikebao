@@ -1,0 +1,32 @@
+{
+  "title": "Pago y renovación automática",
+  "pageTitle": "Pago simulado",
+  "summary": "Simula un pago a continuación para completar el proceso.",
+  "orderNo": "N.º de pedido",
+  "amount": "Importe",
+  "buttons": {
+    "pay": "Pagar"
+  },
+  "bank": {
+    "title": "Cuenta bancaria (domiciliación SEPA)",
+    "iban": "IBAN",
+    "ibanHint": "Introduce tu IBAN español (ES + 22 dígitos) para domiciliar los recibos.",
+    "frequency": "Frecuencia de pago"
+  },
+  "frequency": {
+    "monthly": "Mensual",
+    "quarterly": "Trimestral",
+    "annual": "Anual"
+  },
+  "auto": {
+    "title": "Renovación automática",
+    "enable": "Activar renovación automática",
+    "enableDesc": "Renovamos tus pólizas 7 días antes del vencimiento, sin que tengas que hacer nada.",
+    "sepaConsent": "Autorizo al Asegurador a domiciliar el recibo en mi cuenta mediante mandato SEPA."
+  },
+  "toast": {
+    "saved": "Configuración de pago guardada",
+    "consentRequired": "Para activar la renovación automática necesitamos tu consentimiento SEPA"
+  },
+  "fineprint": "Conforme al Reglamento (UE) 260/2012 (SEPA) y la Orden EHA/2899/2011. Puedes cancelar la domiciliación en cualquier momento desde tu banco."
+}

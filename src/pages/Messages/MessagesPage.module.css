@@ -1,0 +1,132 @@
+.page {
+  min-height: 100%;
+  background: var(--color-parchment);
+}
+
+.titleArea {
+  padding: 48px 20px 16px;
+  background: rgba(245, 244, 237, 0.93);
+  position: sticky;
+  top: 0;
+  z-index: var(--z-nav);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--color-border-cream);
+}
+
+.pageTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-sub);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  line-height: var(--lh-sub);
+}
+
+.list {
+  padding: 8px 0;
+  background: var(--color-ivory);
+  margin: 12px 16px;
+  border-radius: var(--radius-featured);
+  border: 1px solid var(--color-border-cream);
+  box-shadow: var(--shadow-whisper);
+  overflow: hidden;
+}
+
+.channelCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 20px;
+  text-align: left;
+  background: var(--color-ivory);
+  cursor: pointer;
+  transition: background 0.1s;
+  border-bottom: 1px solid var(--color-border-cream);
+}
+
+.channelCard:last-child {
+  border-bottom: none;
+}
+
+.channelCard:active {
+  background: var(--color-warm-sand);
+}
+
+.iconWrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 8px;
+  background: var(--color-error);
+  color: var(--color-ivory);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  border: 1.5px solid var(--color-parchment);
+}
+
+.channelInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.channelTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.channelName {
+  font-family: var(--font-serif);
+  font-size: var(--text-body-std);
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.channelTime {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+  flex-shrink: 0;
+}
+
+.channelPreview {
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  color: var(--color-text-olive);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.channelDesc {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: var(--color-text-stone);
+  margin: 2px 0 0;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.notice {
+  padding: 20px;
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+  text-align: center;
+}

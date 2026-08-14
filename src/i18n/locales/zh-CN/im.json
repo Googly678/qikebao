@@ -1,0 +1,35 @@
+{
+  "channels": {
+    "insure-service": "投保服务",
+    "claim-service": "理赔服务",
+    "announcement": "公告信息",
+    "renewal-30d": "续保提醒",
+    "default": "客服"
+  },
+  "headerSubtitle": "在线客服",
+  "close": "关闭",
+  "send": "发送",
+  "inputPlaceholder": "输入消息...",
+  "welcome": "您好！欢迎使用{{channel}}，我们将竭诚为您服务。",
+  "me": "我",
+  "messagesPage": {
+    "title": "消息",
+    "notice": "以上消息频道为系统固定服务频道",
+    "latest": {
+      "insure": "您好，欢迎使用投保服务，可随时向我们咨询。",
+      "claim": "如遇到理赔问题，请随时联系我们，24小时为您服务。",
+      "announcement": "【重要公告】货运险费率调整通知，请查阅最新保单。",
+      "renewal": "您有 {{count}} 张保单将在 30 天内到期，点击查看续保中心。"
+    },
+    "descriptions": {
+      "insure": "保险咨询、投保协助、续保提醒",
+      "claim": "理赔申请、进度查询、材料提交",
+      "announcement": "产品更新、政策变动、重要通知",
+      "renewal": "30/60/90 天到期提醒、自动续保提示"
+    },
+    "time": {
+      "justNow": "刚刚",
+      "yesterday": "昨天"
+    }
+  }
+}

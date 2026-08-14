@@ -1,0 +1,60 @@
+{
+  "appName": "Portal de Seguros",
+  "appSubtitle": "Portal de Seguros · Insurance Portal",
+  "status": {
+    "active": "Vigente",
+    "expired": "Vencida",
+    "pending": "Pendiente de efecto",
+    "cancelled": "Anulada",
+    "eligible": "Renovable",
+    "quoted": "Cotizada",
+    "awaitingPayment": "Pendiente de pago",
+    "paid": "Indemnizado",
+    "pending_claim": "En curso",
+    "reviewing": "En revisión",
+    "approved": "Aprobado",
+    "rejected": "Rechazado"
+  },
+  "buttons": {
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "next": "Siguiente",
+    "back": "Anterior",
+    "save": "Guardar",
+    "submit": "Enviar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "renew": "Renovar",
+    "viewDetail": "Ver detalle",
+    "viewPolicy": "Ver póliza",
+    "applyClaim": "Declarar siniestro",
+    "consult": "Consultar",
+    "insure": "Contratar",
+    "search": "Buscar",
+    "download": "Descargar",
+    "loading": "Redirigiendo…"
+  },
+  "actions": {
+    "retry": "Reintentar",
+    "logout": "Cerrar sesión",
+    "logoutConfirm": "¿Confirmas que quieres cerrar la sesión actual?",
+    "loggedOut": "Sesión cerrada",
+    "clearSearch": "Borrar búsqueda"
+  },
+  "yes": "Sí",
+  "no": "No",
+  "filter": {
+    "all": "Todos"
+  },
+  "search": {
+    "defaultPlaceholder": "Buscar"
+  },
+  "empty": {
+    "default": "Sin datos",
+    "policies": "Sin pólizas",
+    "claims": "Sin siniestros",
+    "messages": "Sin mensajes"
+  },
+  "yesCount_one": "{{count}} registro",
+  "yesCount_other": "{{count}} registros"
+}

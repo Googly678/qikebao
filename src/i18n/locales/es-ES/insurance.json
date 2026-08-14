@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Seguros",
+  "pageSubtitle": "Soluciones精选 para empresas: contratación rápida y consultoría",
+  "eyebrow": "Seguros para empresas · Contratación móvil",
+  "searchPlaceholder": "Buscar producto, aseguradora o cobertura",
+  "filter": {
+    "category": "Tipo de seguro",
+    "subject": "Objeto asegurado",
+    "insurer": "Aseguradora",
+    "industry": "Sector",
+    "carModel": "Modelo",
+    "price": "Precio",
+    "term": "Vigencia",
+    "coverage": "Cobertura"
+  },
+  "card": {
+    "priceFrom": "Desde",
+    "priceSuffix": "/año",
+    "coverageRange": "Capital {{min}}-{{max}} mil €",
+    "coverageUnit": "mil €"
+  },
+  "industries": {
+    "hosteleria": "Hostelería (restaurante / bar)",
+    "comercio": "Comercio (supermercado / tienda)",
+    "cyber": "Ciber RC"
+  },
+  "detail": {
+    "title": "Detalle del producto",
+    "tabs": {
+      "introduction": "Descripción",
+      "coverage": "Cobertura",
+      "notice": "Aviso de contratación",
+      "specialTerms": "Cláusulas especiales",
+      "disclosure": "Declaración",
+      "samplePolicy": "Póliza de ejemplo"
+    },
+    "viewSample": "Ver póliza de ejemplo (PDF)",
+    "consult": "Consultar",
+    "insure": "Contratar ahora",
+    "readConfirm": "He leído y confirmo la declaración del tomador; los datos facilitados son veraces"
+  },
+  "confirmVehicle": {
+    "title": "Confirmar vehículo",
+    "noVehicles": "No hay vehículos vinculados",
+    "selectHint": "Seleccione el vehículo a asegurar",
+    "redirectFailed": "Error al generar los parámetros de redirección"
+  },
+  "contract": {
+    "title": "Acuerdo de Garantía Extendida",
+    "hint": "Lea los términos del Acuerdo de Garantía Extendida y desplácese hasta el final para confirmar y continuar con el pago.",
+    "product": "Información del producto",
+    "productName": "Producto",
+    "price": "Precio",
+    "perYear": "/año",
+    "coverage": "Cobertura",
+    "prefill": "Vehículo y titular",
+    "vehicle": "Vehículo",
+    "plate": "Matrícula",
+    "vin": "N.º VIN",
+    "ownerMobile": "Teléfono del titular",
+    "unknown": "—",
+    "loading": "Cargando acuerdo…",
+    "back": "Volver",
+    "signing": "Firmando…",
+    "confirmPay": "Confirmar y elegir método de pago",
+    "readAll": "Lea los términos completos",
+    "payMethod": "Elija el método de pago",
+    "payCard": "Tarjeta bancaria",
+    "payWechat": "WeChat Pay",
+    "payAlipay": "Alipay",
+    "cancel": "Cancelar",
+    "sections": [
+      {
+        "title": "1. Definiciones y ámbito",
+        "body": "El presente acuerdo se celebra entre el tomador (propietario del vehículo) y el proveedor de la garantía extendida (asegurador) para el servicio de garantía extendida del vehículo. El vehículo asegurado se identifica por su VIN. Este acuerdo se aplica a las averías cubiertas que se produzcan durante el periodo de cobertura. El titular confirma haber leído y comprendido todas las cláusulas antes de firmar."
+      },
+      {
+        "title": "2. Ámbito de la cobertura",
+        "body": "Durante el periodo de cobertura, el asegurador asume el coste de reparación de los siguientes componentes por defecto de fabricación o uso normal: motor, caja de cambios y sistema eléctrico (según la cobertura del producto contratado). Cada reparación queda limitada al capital asegurado de la póliza."
+      },
+      {
+        "title": "3. Exclusiones",
+        "body": "Quedan excluidos los daños debidos a accidentes de tráfico, daños intencionados, falta de mantenimiento según el manual, modificaciones no autorizadas, inundación, fuerza mayor, uso indebido o desgaste normal de piezas de desgaste. Consulte las exclusiones completas en el contrato oficial."
+      },
+      {
+        "title": "4. Procedimiento de siniestro",
+        "body": "En caso de avería, comuníquelo en un plazo de 24 horas a través del portal o de la línea de atención al cliente, acuda a un taller autorizado para su revisión y conserve la orden de reparación y los justificantes. Tras la aprobación, el coste de la reparación se abonará según lo pactado."
+      },
+      {
+        "title": "5. Vigencia y resolución",
+        "body": "La cobertura comienza a las 00:00 del día siguiente al pago. Durante el periodo de desistimiento puede solicitar la anulación con reembolso íntegro de la prima; transcurrido este, la anulación conllevará una retención pactada."
+      },
+      {
+        "title": "6. Otras disposiciones",
+        "body": "Lo no previsto en este acuerdo se regirá por las Condiciones Generales de la Garantía Extendida. Este acuerdo es una versión de demostración; el texto oficial será el PDF del acuerdo electrónico firmado, con plena validez jurídica."
+      }
+    ]
+  },
+  "checkout": {
+    "title": "Cuestionario — {{product}} ({{step}}/3)",
+    "stepOf": "{{step}}/{{total}}",
+    "sections": {
+      "basicInfo": "Datos del tomador/asegurado",
+      "coreNeeds": "Necesidades de cobertura",
+      "operation": "Actividad del asegurado",
+      "claimHistory": "Siniestralidad y pólizas (2023-2025)",
+      "extra": "Información adicional",
+      "declaration": "Declaración del tomador"
+    },
+    "fields": {
+      "companyName": "Tomador / Asegurado y filiales *",
+      "companyNamePlaceholder": "Nombre de la empresa",
+      "employeeCount": "Nº de empleados *",
+      "ownedVehicles": "Vehículos propios *",
+      "lastYearRevenue": "Facturación año anterior (en miles de €) *",
+      "estimatedRevenue": "Facturación estimada del periodo (en miles de €) *",
+      "maxClaimPerIncident": "Límite por siniestro (en miles de €) *",
+      "startDate": "Fecha de efecto deseada *",
+      "otherNeeds": "Otras necesidades",
+      "otherNeedsPlaceholder": "Necesidades personalizadas",
+      "containerBizRatio": "% de transporte en contenedor/furgón (por servicio) *",
+      "policyNo": "Nº de póliza {{year}}",
+      "insurer": "Aseguradora {{year}}",
+      "claimCount": "Nº de siniestros {{year}} *",
+      "claimAmount": "Importe total de siniestros {{year}} (miles de €) *",
+      "yearNotInsured": "Deja vacío si no contrató"
+    },
+    "groups": {
+      "extensions": "Coberturas opcionales",
+      "consignor": "Tipo de cargador",
+      "consignee": "Tipo de transportista",
+      "goodsType": "Tipo de mercancía",
+      "route": "Rutas",
+      "year": "Año {{year}}"
+    },
+    "declaration": "Confirmo que los datos facilitados son veraces",
+    "submit": "Enviar",
+    "next": "Siguiente",
+    "back": "Anterior",
+    "options": {
+      "extColdChain": "¿Incluir transporte refrigerado?",
+      "extXinjiang": "¿Cubrir Xinjiang?",
+      "extQinghai": "¿Cubrir Qinghai?",
+      "extTibet": "¿Cubrir el Tíbet?",
+      "extOverload": "¿Cubrir matrículas temporales / sobredimensionadas / carga no desmontable?",
+      "consignorOwner": "Cargador (fábrica / comercio / propietario de la mercancía)",
+      "consignorLogistics": "Empresa de logística",
+      "consignorPlatform": "Plataforma de freight",
+      "consigneeLogistics": "Empresa de logística",
+      "consigneeSubcontract": "Conductor subcontratado",
+      "consigneePlatformDriver": "Conductor de plataforma",
+      "consigneeSelfVehicle": "Vehículo propio (sin transportista)",
+      "goodsFragile": "¿Transporta frágiles (cristal, fotovoltaico, vino en botella, etc.)?",
+      "goodsAutoParts": "¿Transporta piezas de automóvil?",
+      "goodsMachinery": "¿Transporta maquinaria (no de precisión, no sobredimensionada)?",
+      "goodsSteel": "¿Transporta acero (bobinas, estructuras, etc.)?",
+      "goodsFood": "¿Transporta alimentos/bebidas a temperatura ambiente?",
+      "goodsElectronics": "¿Transporta electrónica (TV, dispositivos digitales, etc.)?",
+      "goodsSemiconductor": "¿Transporta componentes semiconductores?",
+      "routeYunnanGuizhou": "¿Ruta a Yunnan / Guizhou?",
+      "routeGansuNingxia": "¿Ruta a Gansu / Ningxia?",
+      "routeInnerMongolia": "¿Ruta a Mongolia Interior?",
+      "routeJilinHeilongjiang": "¿Ruta a Jilin / Heilongjiang?",
+      "routeHainan": "¿Ruta a Hainan?",
+      "routeSichuanChongqing": "¿Ruta a Sichuan / Chongqing?",
+      "useTMS": "¿Utiliza software TMS?",
+      "useADAS": "¿Utiliza sistemas de seguridad tipo ADAS?"
+    }
+  }
+}

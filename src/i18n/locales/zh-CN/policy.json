@@ -1,0 +1,43 @@
+{
+  "pageTitle": "保单",
+  "pageSubtitle": "查看已购保单，掌握保额使用与历史理赔记录",
+  "searchPlaceholder": "搜索保单号、产品名称、被保险人",
+  "filter": {
+    "category": "保险种类",
+    "subject": "保险标的",
+    "insurer": "保险公司"
+  },
+  "card": {
+    "insurer": "保险公司",
+    "insured": "被保险人",
+    "coverage": "保额 / 剩余保额",
+    "coverageWithValues": "{{total}}万 / {{remaining}}万",
+    "coverageSuffix": "万",
+    "view": "查看详情"
+  },
+  "detail": {
+    "title": "保单详情",
+    "policyNo": "保单号",
+    "period": "保险期间",
+    "totalCoverage": "总保额",
+    "usedCoverage": "已使用保额",
+    "premium": "保费",
+    "remainingCoverage": "剩余保额",
+    "claimHistory": "历史理赔记录",
+    "noClaimHistory": "暂无理赔记录",
+    "currency": "万元"
+  },
+  "document": {
+    "title": "电子保单",
+    "downloadProtocol": "下载服务协议",
+    "downloadInvoice": "下载电子发票",
+    "invoice": "电子发票",
+    "orderNo": "订单号",
+    "amount": "金额",
+    "issuedAt": "开票时间"
+  },
+  "renewal": {
+    "banner": "{{count}} 张保单将在 {{days}} 天内到期",
+    "cta": "立即续保"
+  }
+}

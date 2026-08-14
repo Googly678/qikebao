@@ -1,0 +1,54 @@
+{
+  "menu": {
+    "renewal": "Centro de renovación",
+    "vehicles": "Información de vehículos",
+    "accountInfo": "Datos de la cuenta",
+    "payment": "Pago y renovación",
+    "settings": "Ajustes",
+    "password": "Cambiar contraseña",
+    "logout": "Cerrar sesión"
+  },
+  "company": {
+    "title": "Datos de la empresa",
+    "fields": {
+      "name": "Razón social",
+      "licenseNo": "CIF / NIF",
+      "address": "Domicilio social",
+      "contactName": "Persona de contacto",
+      "contactPhone": "Teléfono de contacto",
+      "industry": "Actividad (CNAE)"
+    }
+  },
+  "account": {
+    "title": "Datos de la cuenta",
+    "fields": {
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "email": "Correo electrónico"
+    }
+  },
+  "settings": {
+    "title": "Ajustes",
+    "items": {
+      "notification": "Notificaciones",
+      "biometric": "Inicio biométrico",
+      "autoLogin": "Inicio de sesión automático"
+    },
+    "language": "Idioma",
+    "updated": "Ajustes actualizados"
+  },
+  "password": {
+    "title": "Cambiar contraseña",
+    "fields": {
+      "old": "Contraseña actual",
+      "new": "Nueva contraseña",
+      "confirm": "Confirmar nueva contraseña"
+    },
+    "toast": {
+      "incomplete": "Completa todos los campos",
+      "mismatch": "Las contraseñas no coinciden",
+      "success": "Contraseña cambiada, vuelve a iniciar sesión",
+      "submit": "Enviar"
+    }
+  }
+}

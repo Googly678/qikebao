@@ -1,0 +1,101 @@
+{
+  "pageTitle": "Claims",
+  "pageSubtitle": "Track claim progress, submit documents online and complete the process efficiently",
+  "searchPlaceholder": "Search by claim no., insured or policy",
+  "newClaim": "New claim",
+  "empty": {
+    "noClaims": "No claims yet"
+  },
+  "filter": {
+    "category": "Category",
+    "insuredName": "Insured",
+    "claimType": "Claim type"
+  },
+  "card": {
+    "reportDate": "Reported on",
+    "view": "View detail"
+  },
+  "create": {
+    "title": "File a claim",
+    "summary": {
+      "eyebrow": "Claim initiation",
+      "selectPolicy": "Select a policy",
+      "policyNo": "Policy no.",
+      "insured": "Insured",
+      "category": "Category",
+      "remainingCoverage": "Remaining coverage"
+    },
+    "sectionTitle": "Application info",
+    "selectPolicy": "Select a policy",
+    "selectClaimType": "Select claim type",
+    "fields": {
+      "policy": "Related policy",
+      "claimType": "Claim type",
+      "incidentDate": "Incident date",
+      "lossDescription": "Loss description",
+      "lossDescriptionPlaceholder": "Describe what happened, the affected items and current status",
+      "contactName": "Contact name",
+      "contactPhone": "Contact phone"
+    },
+    "types": {
+      "cargo-damage": "Cargo damage",
+      "theft": "Theft",
+      "third-party-liability": "Third-party liability",
+      "workplace-injury": "Workplace injury",
+      "vehicle-damage": "Vehicle damage",
+      "customer-slip": "Customer slip (hospitality / retail)",
+      "food-poisoning": "Food poisoning",
+      "employee-cut": "Employee cut / minor injury",
+      "water-damage": "Water damage / leak",
+      "breakage": "Glass / signage breakage",
+      "fire": "Fire / explosion",
+      "cyber-incident": "Cyber / data incident"
+    },
+    "submit": "Submit claim",
+    "cancel": "Cancel"
+  },
+  "detail": {
+    "title": "Claim detail",
+    "noLossItems": "No loss items",
+    "claimNo": "Claim no.",
+    "reportDate": "Reported on",
+    "claimType": "Claim type",
+    "policyNo": "Policy no.",
+    "progress": "Progress",
+    "lossItems": "Loss items",
+    "lossAssessment": "Assessment report",
+    "attachments": "Attachments",
+    "uploadDocs": "Attach documents",
+    "submitDocs": "Submit documents",
+    "contactSupport": "Contact support",
+    "documentsSubmitted": "Documents submitted, an adjuster will review shortly",
+    "inProgress": "In progress",
+    "steps": {
+      "report": "Intake",
+      "onsite": "Onsite survey",
+      "assess": "Loss assessment",
+      "review": "Review",
+      "payout": "Payout"
+    },
+    "demo": {
+      "lossItems": {
+        "electronic-components": "Electronic components",
+        "cold-chain-frozen-food": "Frozen food",
+        "third-party-vehicle": "Third-party vehicle"
+      },
+      "lossItemDescriptions": {
+        "electronic-components": "Truck rollover during transport caused total loss of the cargo.",
+        "cold-chain-frozen-food": "Refrigeration unit failure broke the cold chain and spoiled the goods.",
+        "third-party-vehicle": "Rear-end collision with a third-party car, causing property damage to the third party."
+      },
+      "assessments": {
+        "assess-electronic": "Per the assessor, the cargo was completely destroyed in the rollover. Loss assessed at €35,000, absolute deductible €1,000, final payout €34,000.",
+        "assess-cold-chain": "Assessment in progress. Estimated amount between €25,000 and €28,000.",
+        "assess-pending": "Case at intake stage, awaiting on-site survey."
+      },
+      "attachmentNames": {
+        "Informe de liquidación.pdf": "Settlement report.pdf"
+      }
+    }
+  }
+}

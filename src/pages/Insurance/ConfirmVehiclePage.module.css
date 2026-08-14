@@ -1,0 +1,8 @@
+.page { padding: var(--space-9); font-family: var(--font-sans); background: var(--color-parchment); min-height:100vh }
+.page h1 { font-family: var(--font-serif); font-size: var(--text-feature); line-height: var(--lh-sub); margin-bottom: var(--space-6); color: var(--color-near-black); font-weight:600 }
+.list { display:flex; flex-direction:column; gap:var(--space-4) }
+.card { padding: var(--space-6); border:1px solid var(--color-border-cream); border-radius: var(--radius-standard); background: var(--color-ivory); box-shadow: var(--shadow-whisper) }
+.row { display:flex; justify-content:space-between; align-items:center }
+.sub { color:var(--color-text-olive); font-size: var(--text-caption) }
+.primary { background:var(--color-terracotta); color:var(--color-white); border:none; padding:10px 16px; border-radius: var(--radius-subtle); font-weight:600 }
+.primary:active { box-shadow: var(--shadow-ring-terra) }

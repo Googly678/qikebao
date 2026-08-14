@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data (SQLite orders DB)
+data/
+
+# Backup of the old (企客保/SiGReal) git metadata
+.git-bak-*

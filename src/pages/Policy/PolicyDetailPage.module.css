@@ -1,0 +1,212 @@
+.page {
+  min-height: 100%;
+  background: var(--color-parchment);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px 16px 120px;
+}
+
+.heroCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: var(--color-near-black);
+  color: var(--color-ivory);
+  border-radius: var(--radius-featured);
+  padding: 24px 20px;
+  box-shadow: var(--shadow-whisper);
+  margin-bottom: 20px;
+  border: 1px solid var(--color-dark-surface);
+}
+
+.heroLeft {
+  flex: 1;
+  min-width: 0;
+}
+
+.policyName {
+  font-family: var(--font-serif);
+  font-size: var(--text-sub-sm);
+  font-weight: 500;
+  line-height: var(--lh-sub-sm);
+  margin-bottom: 6px;
+  color: var(--color-ivory);
+}
+
+.policyNo {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-silver);
+  margin-bottom: 12px;
+}
+
+.period {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: var(--radius-high);
+  background: rgba(255,255,255,0.08);
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-silver);
+}
+
+.progressWrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.progressText {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressValue {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-ivory);
+}
+
+.progressLabel {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-text-silver);
+}
+
+.infoSection, .historySection {
+  background: var(--color-ivory);
+  border-radius: var(--radius-featured);
+  padding: 20px;
+  border: 1px solid var(--color-border-cream);
+  box-shadow: var(--shadow-whisper);
+  margin-bottom: 16px;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  color: var(--color-text-olive);
+}
+
+.infoRow strong {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-body-std);
+  font-weight: 500;
+  margin-bottom: 14px;
+  color: var(--color-text-primary);
+}
+
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.historyItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border-cream);
+}
+
+.historyItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.historyType {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-sm);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: 2px;
+}
+
+.historyNo {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+}
+
+.historyRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+}
+
+.historyRight strong {
+  color: var(--color-text-primary);
+  font-size: var(--text-body-sm);
+}
+
+.emptyText {
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  color: var(--color-text-stone);
+}
+
+.bottomBar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--bottom-nav-height) + env(safe-area-inset-bottom, 0px));
+  padding: 12px 16px 0;
+  display: flex;
+  gap: 12px;
+  background: linear-gradient(180deg, rgba(245,244,237,0) 0%, rgba(245,244,237,0.97) 30%);
+}
+
+.secondaryBtn, .primaryBtn {
+  height: 52px;
+  border-radius: var(--radius-standard);
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  font-weight: 400;
+}
+
+.secondaryBtn {
+  flex: 1;
+  background: var(--color-warm-sand);
+  color: var(--color-text-charcoal);
+  border: 1px solid var(--color-border-warm);
+  box-shadow: var(--shadow-ring-sand);
+}
+
+.primaryBtn {
+  flex: 1.4;
+  background: var(--color-near-black);
+  color: var(--color-warm-silver, var(--color-text-silver));
+  border: 1px solid var(--color-dark-surface);
+}

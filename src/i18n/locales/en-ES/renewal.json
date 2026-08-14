@@ -1,0 +1,74 @@
+{
+  "center": {
+    "title": "Renewal center",
+    "subtitle": "Manage upcoming expiries, view quotes and track renewal progress",
+    "kpi": {
+      "expiring30": "Expiring in 30 days",
+      "expiring60": "Expiring in 60 days",
+      "expiring90": "Expiring in 90 days",
+      "expectedPremium": "Expected total premium",
+      "savings": "Estimated savings"
+    },
+    "list": {
+      "policyNo": "Policy no.",
+      "productName": "Product",
+      "insurer": "Insurer",
+      "expiry": "Expires on",
+      "daysLeft_one": "{{count}} day left",
+      "daysLeft_other": "{{count}} days left",
+      "lastYearPremium": "Last year premium",
+      "nextPremium": "Renewal premium",
+      "delta": "Delta",
+      "deltaUp": "+{{value}}%",
+      "deltaDown": "{{value}}%",
+      "actions": {
+        "quote": "View quote",
+        "renew": "Renew now",
+        "compare": "Compare",
+        "talk": "Talk to advisor"
+      }
+    },
+    "empty": "No policies to renew"
+  },
+  "compare": {
+    "title": "Renewal comparison",
+    "fields": {
+      "premium": "Premium",
+      "coverage": "Coverage",
+      "franchise": "Franchise",
+      "extensions": "Optional coverages",
+      "added": "Added",
+      "removed": "Removed"
+    },
+    "old": "Previous policy",
+    "new": "This quote",
+    "noDiff": "No change",
+    "back": "Back to renewal center"
+  },
+  "quote": {
+    "title": "Renewal quote",
+    "prefillNotice": "Pre-filled with last year's info, please confirm or adjust",
+    "submit": "Confirm renewal",
+    "sections": {
+      "coverage": "Coverage and start date",
+      "contact": "Contact info",
+      "declaration": "Declaration"
+    },
+    "fields": {
+      "startDate": "Start date",
+      "coverage": "Coverage (k €)",
+      "contactName": "Contact name",
+      "contactPhone": "Contact phone",
+      "sameAsLastYear": "Re-apply last year's disclosure",
+      "autoRenewal": "Enable auto-renewal (direct debit)",
+      "lastYearPremium": "Last year premium",
+      "lastYearCoverage": "Last year coverage",
+      "expiry": "Previous expiry"
+    },
+    "declaration": "I confirm the renewal info is accurate and complete",
+    "toast": {
+      "prefilled": "{{count}} fields pre-filled",
+      "submitted": "Renewal submitted. {{product}} will be in force on the start date"
+    }
+  }
+}

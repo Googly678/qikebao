@@ -1,0 +1,54 @@
+{
+  "menu": {
+    "renewal": "Renewal center",
+    "vehicles": "Vehicles",
+    "accountInfo": "Account info",
+    "payment": "Payment & renewal",
+    "settings": "Settings",
+    "password": "Change password",
+    "logout": "Log out"
+  },
+  "company": {
+    "title": "Company info",
+    "fields": {
+      "name": "Company name",
+      "licenseNo": "Tax ID",
+      "address": "Address",
+      "contactName": "Contact name",
+      "contactPhone": "Contact phone",
+      "industry": "Industry (CNAE)"
+    }
+  },
+  "account": {
+    "title": "Account info",
+    "fields": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "items": {
+      "notification": "Notifications",
+      "biometric": "Biometric login",
+      "autoLogin": "Auto-login"
+    },
+    "language": "Language",
+    "updated": "Settings updated"
+  },
+  "password": {
+    "title": "Change password",
+    "fields": {
+      "old": "Old password",
+      "new": "New password",
+      "confirm": "Confirm new password"
+    },
+    "toast": {
+      "incomplete": "Please complete all fields",
+      "mismatch": "Passwords do not match",
+      "success": "Password changed, please log in again",
+      "submit": "Submit"
+    }
+  }
+}

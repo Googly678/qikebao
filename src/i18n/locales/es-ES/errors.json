@@ -1,0 +1,33 @@
+{
+  "toast": {
+    "policyNotFound": "Póliza no encontrada",
+    "productNotFound": "Producto no encontrado",
+    "claimNotFound": "Siniestro no encontrado",
+    "claimIncomplete": "Por favor, completa la información del siniestro",
+    "claimSubmitted": "Siniestro declarado para la póliza {{policyNo}}",
+    "checkoutDeclarationMissing": "Marca la declaración del tomador",
+    "checkoutSubmitted": "Solicitud enviada. Pago disponible próximamente",
+    "companyUpdated": "Datos de la empresa actualizados",
+    "accountUpdated": "Datos de la cuenta actualizados",
+    "passwordChanged": "Contraseña actualizada",
+    "languageChanged": "Idioma cambiado",
+    "sessionExpired": "Sesión expirada, inicia sesión de nuevo",
+    "networkError": "Error de red, inténtalo de nuevo"
+  },
+  "validation": {
+    "required": "Campo obligatorio",
+    "phone": "Introduce un teléfono válido (formato {{locale}})",
+    "email": "Introduce un correo válido",
+    "nif": "Introduce un NIF/CIF válido",
+    "iban": "Introduce un IBAN válido",
+    "minLength": "Mínimo {{min}} caracteres"
+  },
+  "modal": {
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "scrollHint": "Desplázate para leer todo el contenido",
+    "readPrompt": "Lee el contenido y luego confirma",
+    "readCountdown": "Confirmar ({{count}}s)",
+    "readConfirm": "He leído y confirmo la contratación"
+  }
+}

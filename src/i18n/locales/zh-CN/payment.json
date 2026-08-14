@@ -1,0 +1,32 @@
+{
+  "title": "支付与自动续保",
+  "pageTitle": "模拟支付",
+  "summary": "请在下面模拟一次支付以完成流程。",
+  "orderNo": "订单号",
+  "amount": "金额",
+  "buttons": {
+    "pay": "支付"
+  },
+  "bank": {
+    "title": "银行账户（SEPA 代扣）",
+    "iban": "IBAN",
+    "ibanHint": "请输入您的西班牙 IBAN（ES + 22 位数字）用于自动扣款。",
+    "frequency": "支付频率"
+  },
+  "frequency": {
+    "monthly": "每月",
+    "quarterly": "每季度",
+    "annual": "每年"
+  },
+  "auto": {
+    "title": "自动续保",
+    "enable": "开通自动续保",
+    "enableDesc": "到期前 7 天自动续保，您无需任何操作。",
+    "sepaConsent": "我授权保险公司通过 SEPA 委托从我的账户扣款。"
+  },
+  "toast": {
+    "saved": "支付配置已保存",
+    "consentRequired": "开通自动续保需要您的 SEPA 授权"
+  },
+  "fineprint": "依据欧盟 (UE) 260/2012 (SEPA) 法规及西班牙 EHA/2899/2011 令。您可随时通过银行取消代扣。"
+}

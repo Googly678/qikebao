@@ -1,0 +1,32 @@
+{
+  "title": "Payment & auto-renewal",
+  "pageTitle": "Mock payment",
+  "summary": "Simulate a payment below to complete the flow.",
+  "orderNo": "Order no.",
+  "amount": "Amount",
+  "buttons": {
+    "pay": "Pay"
+  },
+  "bank": {
+    "title": "Bank account (SEPA direct debit)",
+    "iban": "IBAN",
+    "ibanHint": "Enter your Spanish IBAN (ES + 22 digits) to enable direct debit.",
+    "frequency": "Payment frequency"
+  },
+  "frequency": {
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "annual": "Annual"
+  },
+  "auto": {
+    "title": "Auto-renewal",
+    "enable": "Enable auto-renewal",
+    "enableDesc": "We renew your policies 7 days before expiry, no action needed from you.",
+    "sepaConsent": "I authorize the insurer to debit my account via SEPA mandate."
+  },
+  "toast": {
+    "saved": "Payment settings saved",
+    "consentRequired": "We need your SEPA consent to enable auto-renewal"
+  },
+  "fineprint": "Compliant with Regulation (EU) 260/2012 (SEPA) and Spanish Order EHA/2899/2011. You can cancel the direct debit at any time from your bank."
+}

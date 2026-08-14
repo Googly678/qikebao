@@ -1,0 +1,34 @@
+{
+  "category": {
+    "auto": "Garantía extendida",
+    "货运险": "Transporte de mercancías",
+    "责任险": "Responsabilidad civil",
+    "车辆险": "Vehículos",
+    "雇主险": "Convenio / Empleador",
+    "财产险": "Patrimonio / Inmuebles"
+  },
+  "subject": {
+    "vehicle": "Vehículo",
+    "整车货物": "Carga completa",
+    "零担货物": "Carga consolidada",
+    "冷链货物": "Cadena de frío",
+    "危险品": "Mercancías peligrosas",
+    "电子设备": "Equipos electrónicos",
+    "店铺财产": "Patrimonio del local",
+    "员工": "Empleados",
+    "产品责任": "Responsabilidad de producto"
+  },
+  "insurer": {
+    "延保保险有限公司": "Aseguradora Garantía Extendida",
+    "中国人保": "PICC (China)",
+    "平安保险": "Ping An (China)",
+    "太平洋保险": "CPIC (China)",
+    "中国太保": "CPIC Property",
+    "阳光保险": "Sunshine (China)",
+    "Mapfre": "Mapfre",
+    "Mutua Madrileña": "Mutua Madrileña",
+    "Ibermutua": "Ibermutua",
+    "Fraternidad-Muprespa": "Fraternidad-Muprespa",
+    "Zurich": "Zurich"
+  }
+}

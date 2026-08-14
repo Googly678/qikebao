@@ -1,0 +1,60 @@
+{
+  "appName": "Insurance Portal",
+  "appSubtitle": "Insurance Portal · Portal de Seguros",
+  "status": {
+    "active": "Active",
+    "expired": "Expired",
+    "pending": "Pending effect",
+    "cancelled": "Cancelled",
+    "eligible": "Eligible for renewal",
+    "quoted": "Quoted",
+    "awaitingPayment": "Awaiting payment",
+    "paid": "Paid",
+    "pending_claim": "Pending",
+    "reviewing": "Under review",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "buttons": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "renew": "Renew",
+    "viewDetail": "View detail",
+    "viewPolicy": "View policy",
+    "applyClaim": "File a claim",
+    "consult": "Consult",
+    "insure": "Insure",
+    "search": "Search",
+    "download": "Download",
+    "loading": "Redirecting…"
+  },
+  "actions": {
+    "retry": "Retry",
+    "logout": "Log out",
+    "logoutConfirm": "Are you sure you want to log out?",
+    "loggedOut": "Logged out",
+    "clearSearch": "Clear search"
+  },
+  "yes": "Yes",
+  "no": "No",
+  "filter": {
+    "all": "All"
+  },
+  "search": {
+    "defaultPlaceholder": "Search"
+  },
+  "empty": {
+    "default": "No data",
+    "policies": "No policies",
+    "claims": "No claims",
+    "messages": "No messages"
+  },
+  "yesCount_one": "{{count}} record",
+  "yesCount_other": "{{count}} records"
+}

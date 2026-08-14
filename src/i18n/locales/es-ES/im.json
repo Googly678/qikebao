@@ -1,0 +1,35 @@
+{
+  "channels": {
+    "insure-service": "Servicio de contratación",
+    "claim-service": "Servicio de siniestros",
+    "announcement": "Anuncios",
+    "renewal-30d": "Avisos de renovación",
+    "default": "Soporte"
+  },
+  "headerSubtitle": "Atención online",
+  "close": "Cerrar",
+  "send": "Enviar",
+  "inputPlaceholder": "Escribe un mensaje...",
+  "welcome": "¡Hola! Bienvenido al servicio de {{channel}}, estamos a tu disposición.",
+  "me": "Yo",
+  "messagesPage": {
+    "title": "Mensajes",
+    "notice": "Los canales anteriores son canales oficiales del sistema",
+    "latest": {
+      "insure": "Hola, bienvenido al servicio de contratación. Consulta con nosotros cuando quieras.",
+      "claim": "Si tienes un siniestro, contáctanos 24/7.",
+      "announcement": "[Importante] Aviso de actualización de tarifas de transporte, consulta tu última póliza.",
+      "renewal": "Tienes {{count}} pólizas que vencen en 30 días. Toca para ver el centro de renovación."
+    },
+    "descriptions": {
+      "insure": "Consultoría, ayuda con la contratación y avisos de renovación",
+      "claim": "Declaración, seguimiento y envío de documentación",
+      "announcement": "Actualizaciones de producto, cambios normativos y avisos importantes",
+      "renewal": "Avisos a 30/60/90 días y renovación automática"
+    },
+    "time": {
+      "justNow": "Ahora",
+      "yesterday": "Ayer"
+    }
+  }
+}

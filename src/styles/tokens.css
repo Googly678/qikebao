@@ -1,0 +1,134 @@
+/* ============================================================
+   Claude / Anthropic Design System — CSS Tokens
+   Strictly mapped from appledesign.md (Claude style)
+   ============================================================ */
+
+/* Import webfonts (Inter for UI / Merriweather for headings) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
+:root {
+  /* ── Colors: Primary ── */
+  --color-near-black:    #141413;   /* Anthropic Near Black — primary text & dark bg */
+  --color-terracotta:    #c96442;   /* Terracotta Brand — primary CTA */
+  --color-coral:         #d97757;   /* Coral Accent — links on dark, secondary emphasis */
+
+  /* ── Colors: Secondary / Semantic ── */
+  --color-error:         #b53333;   /* Error Crimson */
+  --color-focus:         #3898ec;   /* Focus Blue — only cool color, accessibility only */
+
+  /* ── Colors: Warm Semantic Status (stay on the warm palette) ── */
+  --color-success:       #55614e;   /* Muted warm olive-green — paid / success */
+  --color-warning:       #9a8458;   /* Warm ochre (yellow-brown undertone) — pending */
+
+  /* ── Colors: Surfaces ── */
+  --color-parchment:     #f5f4ed;   /* Page background — warm cream */
+  --color-ivory:         #faf9f5;   /* Card surface on parchment */
+  --color-white:         #ffffff;   /* Maximum contrast / specific button surfaces */
+  --color-warm-sand:     #e8e6dc;   /* Button bg / prominent interactive surfaces */
+  --color-dark-surface:  #30302e;   /* Dark containers / nav borders */
+  --color-deep-dark:     #141413;   /* Dark-theme page bg */
+
+  /* ── Colors: Text ── */
+  --color-text-primary:  #141413;   /* Anthropic Near Black */
+  --color-text-charcoal: #4d4c48;   /* Charcoal Warm — button text on light */
+  --color-text-olive:    #5e5d59;   /* Olive Gray — secondary body text */
+  --color-text-stone:    #87867f;   /* Stone Gray — tertiary / metadata */
+  --color-text-dark-warm:#3d3d3a;   /* Dark Warm — dark text links */
+  --color-text-silver:   #b0aea5;   /* Warm Silver — text on dark surfaces */
+
+  /* ── Colors: Borders ── */
+  --color-border-cream:  #f0eee6;   /* Light-theme standard border */
+  --color-border-warm:   #e8e6dc;   /* Light-theme prominent border */
+  --color-border-dark:   #30302e;   /* Dark-theme border */
+
+  /* ── Colors: Ring Shadows ── */
+  --color-ring-warm:     #d1cfc5;   /* Button hover/focus ring */
+  --color-ring-subtle:   #c2c0b6;   /* Secondary ring variant (warm) */
+  --color-ring-deep:     #b5b3a8;   /* Active/pressed ring (warm) */
+
+  /* ── Shadows ── */
+  --shadow-whisper:      rgba(0,0,0,0.05) 0px 4px 24px;       /* Elevated cards */
+  --shadow-ring-sand:    #e8e6dc 0px 0px 0px 0px, #d1cfc5 0px 0px 0px 1px; /* Warm sand button */
+  --shadow-ring-dark:    #30302e 0px 0px 0px 0px, #30302e 0px 0px 0px 1px; /* Dark button */
+  --shadow-ring-terra:   #c96442 0px 0px 0px 0px, #c96442 0px 0px 0px 1px; /* Terracotta button */
+
+  /* ── Typography: Font Families ── */
+  /* Use Merriweather for display/serif headings and Inter for UI text */
+  --font-serif:  'Merriweather', 'Georgia', 'Times New Roman', serif;
+  --font-sans:   'Inter', 'system-ui', 'Arial', sans-serif;
+  --font-mono:   'Menlo', 'Consolas', 'monospace';
+
+  /* ── Typography: Sizes ── */
+  --text-display:    4rem;      /* 64px — Display/Hero (desktop) */
+  --text-section:    3.25rem;   /* 52px — Section Heading */
+  --text-sub-lg:     2.3rem;    /* ~36.8px — Sub-heading Large */
+  --text-sub:        2rem;      /* 32px — Sub-heading */
+  --text-sub-sm:     1.6rem;    /* ~25.6px — Sub-heading Small */
+  --text-feature:    1.3rem;    /* 20.8px — Feature Title */
+  --text-body-serif: 1.06rem;   /* 17px — Body Serif */
+  --text-body-lg:    1.25rem;   /* 20px — Body Large */
+  --text-body:       1.06rem;   /* 17px — Body / Nav */
+  --text-body-std:   1rem;      /* 16px — Body Standard */
+  --text-body-sm:    0.94rem;   /* 15px — Body Small */
+  --text-caption:    0.88rem;   /* 14px — Caption */
+  --text-label:      0.75rem;   /* 12px — Label / Badge */
+  --text-overline:   0.63rem;   /* 10px — Overline */
+  --text-micro:      0.6rem;    /* 9.6px — Micro */
+
+  /* ── Typography: Line Heights ── */
+  --lh-hero:    1.10;   /* Display / hero — tight */
+  --lh-section: 1.20;   /* Section heading */
+  --lh-sub-lg:  1.30;   /* Sub-heading large */
+  --lh-sub:     1.10;   /* Sub-heading tight */
+  --lh-sub-sm:  1.20;   /* Sub-heading small */
+  --lh-body:    1.60;   /* Body — relaxed / editorial */
+  --lh-ui:      1.25;   /* UI elements */
+  --lh-label:   1.60;   /* Labels */
+  --lh-caption: 1.43;   /* Captions */
+
+  /* ── Typography: Letter Spacing ── */
+  --ls-body:      normal;
+  --ls-label:     0.12px;
+  --ls-overline:  0.5px;
+  --ls-micro:     0.096px;
+  --ls-code:     -0.32px;
+
+  /* ── Border Radius Scale ── */
+  --radius-sharp:     4px;    /* Minimal inline elements */
+  --radius-subtle:    6px;    /* Small buttons, secondary interactive */
+  --radius-standard:  8px;    /* Standard buttons, cards */
+  --radius-generous:  12px;   /* Primary buttons, inputs, nav */
+  --radius-featured:  16px;   /* Featured containers, video, tab lists */
+  --radius-high:      24px;   /* Tags, highlighted containers */
+  --radius-max:       32px;   /* Hero containers, large cards, media */
+  --radius-circle:    50%;
+
+  /* ── Spacing Scale (base 8px) ── */
+  --space-1:   3px;
+  --space-2:   4px;
+  --space-3:   6px;
+  --space-4:   8px;
+  --space-5:   10px;
+  --space-6:   12px;
+  --space-7:   16px;
+  --space-8:   20px;
+  --space-9:   24px;
+  --space-10:  30px;
+  --space-11:  40px;
+  --space-12:  48px;
+  --space-13:  64px;
+  --space-14:  80px;
+  --space-15:  120px;
+
+  /* ── Layout ── */
+  --nav-height:        56px;
+  --bottom-nav-height: 83px;
+  --max-content-width: 1200px;
+
+  /* ── Z-index ── */
+  --z-base:    0;
+  --z-card:    10;
+  --z-nav:     100;
+  --z-modal:   200;
+  --z-toast:   300;
+}

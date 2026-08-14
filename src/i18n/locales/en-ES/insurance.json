@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Insure",
+  "pageSubtitle": "Curated insurance products for businesses, quick bind and consult",
+  "eyebrow": "Business Insurance · Mobile bind",
+  "searchPlaceholder": "Search product, insurer or coverage",
+  "filter": {
+    "category": "Category",
+    "subject": "Subject",
+    "insurer": "Insurer",
+    "industry": "Industry",
+    "carModel": "Model",
+    "price": "Price",
+    "term": "Term",
+    "coverage": "Coverage"
+  },
+  "card": {
+    "priceFrom": "From",
+    "priceSuffix": "/yr",
+    "coverageRange": "{{min}}-{{max}}k € coverage",
+    "coverageUnit": "k €"
+  },
+  "industries": {
+    "hosteleria": "Hospitality (restaurant / bar)",
+    "comercio": "Retail (supermarket / shop)",
+    "cyber": "Cyber liability"
+  },
+  "detail": {
+    "title": "Product detail",
+    "tabs": {
+      "introduction": "Overview",
+      "coverage": "Coverage",
+      "notice": "Notice",
+      "specialTerms": "Special terms",
+      "disclosure": "Disclosure",
+      "samplePolicy": "Sample policy"
+    },
+    "viewSample": "View sample policy PDF",
+    "consult": "Consult",
+    "insure": "Insure now",
+    "readConfirm": "I have read and confirm the policyholder declaration; data is accurate"
+  },
+  "confirmVehicle": {
+    "title": "Confirm vehicle",
+    "noVehicles": "No bound vehicles",
+    "selectHint": "Select the vehicle to insure",
+    "redirectFailed": "Failed to generate redirect parameters"
+  },
+  "contract": {
+    "title": "Extended Warranty Agreement",
+    "hint": "Read the Extended Warranty Agreement below, scroll to the bottom and confirm to continue with payment.",
+    "product": "Product information",
+    "productName": "Product",
+    "price": "Price",
+    "perYear": "/yr",
+    "coverage": "Coverage",
+    "prefill": "Vehicle & owner information",
+    "vehicle": "Vehicle",
+    "plate": "Plate",
+    "vin": "VIN",
+    "ownerMobile": "Owner mobile",
+    "unknown": "—",
+    "loading": "Loading agreement…",
+    "back": "Back",
+    "signing": "Signing…",
+    "confirmPay": "Confirm & choose payment method",
+    "readAll": "Please read the full terms",
+    "payMethod": "Choose payment method",
+    "payCard": "Bank card",
+    "payWechat": "WeChat Pay",
+    "payAlipay": "Alipay",
+    "cancel": "Cancel",
+    "sections": [
+      {
+        "title": "1. Definitions and scope",
+        "body": "This agreement is entered into between the policyholder (vehicle owner) and the extended warranty provider (insurer) for the vehicle extended warranty service. The insured vehicle is identified by its VIN. This agreement applies to covered failures occurring during the coverage period. The owner confirms having read and understood all clauses before signing."
+      },
+      {
+        "title": "2. Scope of coverage",
+        "body": "During the coverage period, the insurer bears the repair cost of the following components failing due to manufacturing defects or normal use: engine, transmission and electrical system (according to the selected product's coverage). Each repair is limited to the insured amount stated in the policy."
+      },
+      {
+        "title": "3. Exclusions",
+        "body": "Losses caused by the following are excluded: traffic accidents, intentional damage, failure to follow the maintenance manual, unauthorised modifications, flooding, force majeure, misuse, and normal wear of consumable parts. Refer to the full exclusions in the official contract."
+      },
+      {
+        "title": "4. Claims procedure",
+        "body": "In case of breakdown, report it within 24 hours via the portal or the customer service line, visit an authorised repair centre, and keep the repair order and receipts. Once the claim is approved, the repair cost will be settled as agreed."
+      },
+      {
+        "title": "5. Term and termination",
+        "body": "Coverage begins at 00:00 on the day after payment. During the cooling-off period you may cancel with a full refund of the premium; after that period, cancellation is subject to an agreed deduction."
+      },
+      {
+        "title": "6. Other provisions",
+        "body": "Matters not covered by this agreement are governed by the General Terms of the Extended Warranty. This agreement is a demonstration version; the official terms are the signed electronic PDF agreement, which has full legal effect."
+      }
+    ]
+  },
+  "checkout": {
+    "title": "Questionnaire — {{product}} ({{step}}/3)",
+    "stepOf": "{{step}}/{{total}}",
+    "sections": {
+      "basicInfo": "Policyholder / insured information",
+      "coreNeeds": "Core coverage needs",
+      "operation": "Insured activity",
+      "claimHistory": "Claims and policies (2023-2025)",
+      "extra": "Additional information",
+      "declaration": "Policyholder declaration"
+    },
+    "fields": {
+      "companyName": "Policyholder / insured and subsidiaries *",
+      "companyNamePlaceholder": "Company name",
+      "employeeCount": "Number of employees *",
+      "ownedVehicles": "Owned vehicles *",
+      "lastYearRevenue": "Last year revenue (in thousands of €) *",
+      "estimatedRevenue": "Estimated revenue for the term (in thousands of €) *",
+      "maxClaimPerIncident": "Limit per claim (in thousands of €) *",
+      "startDate": "Desired start date *",
+      "otherNeeds": "Other needs",
+      "otherNeedsPlaceholder": "Custom needs",
+      "containerBizRatio": "% container / box-truck transport (per shipment) *",
+      "policyNo": "{{year}} policy no.",
+      "insurer": "{{year}} insurer",
+      "claimCount": "{{year}} claim count *",
+      "claimAmount": "{{year}} claim amount (thousands of €) *",
+      "yearNotInsured": "Leave empty if not insured"
+    },
+    "groups": {
+      "extensions": "Optional coverages",
+      "consignor": "Consignor type",
+      "consignee": "Carrier type",
+      "goodsType": "Goods type",
+      "route": "Routes",
+      "year": "Year {{year}}"
+    },
+    "declaration": "I confirm the provided data is accurate",
+    "submit": "Submit",
+    "next": "Next",
+    "back": "Back",
+    "options": {
+      "extColdChain": "Include refrigerated transport?",
+      "extXinjiang": "Cover Xinjiang?",
+      "extQinghai": "Cover Qinghai?",
+      "extTibet": "Cover Tibet?",
+      "extOverload": "Cover temp / oversize / non-detachable cargo?",
+      "consignorOwner": "Consignor (factory / trading / cargo owner)",
+      "consignorLogistics": "Logistics company",
+      "consignorPlatform": "Freight platform",
+      "consigneeLogistics": "Logistics company",
+      "consigneeSubcontract": "Subcontracted driver",
+      "consigneePlatformDriver": "Platform driver",
+      "consigneeSelfVehicle": "Own vehicle (no carrier)",
+      "goodsFragile": "Transport fragile goods (stone, glass, PV modules, bottled wine, etc.)?",
+      "goodsAutoParts": "Transport auto parts?",
+      "goodsMachinery": "Transport machinery (non-precision, non-oversized)?",
+      "goodsSteel": "Transport steel (coils, structures, etc.)?",
+      "goodsFood": "Transport ambient food / beverages?",
+      "goodsElectronics": "Transport electronics (TVs, digital devices, etc.)?",
+      "goodsSemiconductor": "Transport semiconductor parts?",
+      "routeYunnanGuizhou": "Route to Yunnan / Guizhou?",
+      "routeGansuNingxia": "Route to Gansu / Ningxia?",
+      "routeInnerMongolia": "Route to Inner Mongolia?",
+      "routeJilinHeilongjiang": "Route to Jilin / Heilongjiang?",
+      "routeHainan": "Route to Hainan?",
+      "routeSichuanChongqing": "Route to Sichuan / Chongqing?",
+      "useTMS": "Use TMS software?",
+      "useADAS": "Use ADAS safety systems?"
+    }
+  }
+}

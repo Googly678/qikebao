@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>企客保险管理门户</title>
+    <script>
+      // GitHub Pages SPA fallback: redirect unknown routes to index with preserved path.
+      const path = window.location.pathname.replace(/\/$/, '')
+      const query = window.location.search
+      const hash = window.location.hash
+      const segments = path.split('/').filter(Boolean)
+      const repoBase = segments.length > 0 ? '/' + segments[0] : ''
+      const routePath = segments.length > 1 ? '/' + segments.slice(1).join('/') : '/'
+      const redirect = repoBase + '/?p=' + encodeURIComponent(routePath + query + hash)
+      window.location.replace(redirect)
+    </script>
+  </head>
+  <body></body>
+</html>

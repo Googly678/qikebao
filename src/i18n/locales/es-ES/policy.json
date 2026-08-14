@@ -1,0 +1,43 @@
+{
+  "pageTitle": "Pólizas",
+  "pageSubtitle": "Consulta todas las pólizas contratadas, el uso del capital asegurado y el historial de siniestros",
+  "searchPlaceholder": "Buscar por nº de póliza, producto o asegurado",
+  "filter": {
+    "category": "Tipo de seguro",
+    "subject": "Objeto asegurado",
+    "insurer": "Aseguradora"
+  },
+  "card": {
+    "insurer": "Aseguradora",
+    "insured": "Tomador / Asegurado",
+    "coverage": "Capital / Capital restante",
+    "coverageWithValues": "{{total}} mil € / {{remaining}} mil €",
+    "coverageSuffix": "mil €",
+    "view": "Ver detalle"
+  },
+  "detail": {
+    "title": "Detalle de la póliza",
+    "policyNo": "Nº de póliza",
+    "period": "Periodo de cobertura",
+    "totalCoverage": "Capital total",
+    "usedCoverage": "Capital consumido",
+    "premium": "Prima",
+    "remainingCoverage": "Capital restante",
+    "claimHistory": "Historial de siniestros",
+    "noClaimHistory": "Sin siniestros registrados",
+    "currency": "mil €"
+  },
+  "document": {
+    "title": "Póliza electrónica",
+    "downloadProtocol": "Descargar acuerdo de servicio",
+    "downloadInvoice": "Descargar factura electrónica",
+    "invoice": "Factura electrónica",
+    "orderNo": "N.º de pedido",
+    "amount": "Importe",
+    "issuedAt": "Fecha de emisión"
+  },
+  "renewal": {
+    "banner": "{{count}} pólizas vencen en los próximos {{days}} días",
+    "cta": "Renovar ahora"
+  }
+}

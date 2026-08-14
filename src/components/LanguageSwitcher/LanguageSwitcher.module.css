@@ -1,0 +1,44 @@
+/* LanguageSwitcher — chips 横排与 select 下拉 */
+
+.chips {
+  display: inline-flex;
+  gap: 8px;
+  padding: 4px;
+  background: var(--color-border-cream, #f0eee6);
+  border-radius: 12px;
+}
+
+.chip {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--color-charcoal-warm, #4d4c48);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.chip:hover {
+  color: var(--color-near-black, #141413);
+}
+
+.chipActive {
+  background: var(--color-ivory, #faf9f5);
+  color: var(--color-near-black, #141413);
+  box-shadow: 0 0 0 1px var(--color-ring-warm, #d1cfc5);
+}
+
+.select {
+  appearance: none;
+  background: var(--color-ivory, #faf9f5);
+  color: var(--color-near-black, #141413);
+  border: 1px solid var(--color-border-warm, #e8e6dc);
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 8px 32px 8px 12px;
+  cursor: pointer;
+}

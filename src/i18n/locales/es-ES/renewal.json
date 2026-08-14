@@ -1,0 +1,74 @@
+{
+  "center": {
+    "title": "Centro de renovación",
+    "subtitle": "Gestiona las pólizas próximas a vencer, consulta cotizaciones y sigue el progreso",
+    "kpi": {
+      "expiring30": "Vencen en 30 días",
+      "expiring60": "Vencen en 60 días",
+      "expiring90": "Vencen en 90 días",
+      "expectedPremium": "Prima total estimada",
+      "savings": "Ahorro estimado"
+    },
+    "list": {
+      "policyNo": "Nº de póliza",
+      "productName": "Producto",
+      "insurer": "Aseguradora",
+      "expiry": "Vencimiento",
+      "daysLeft_one": "Quedan {{count}} días",
+      "daysLeft_other": "Quedan {{count}} días",
+      "lastYearPremium": "Prima anterior",
+      "nextPremium": "Prima de renovación",
+      "delta": "Variación",
+      "deltaUp": "+{{value}}%",
+      "deltaDown": "{{value}}%",
+      "actions": {
+        "quote": "Ver cotización",
+        "renew": "Renovar ahora",
+        "compare": "Comparar",
+        "talk": "Hablar con un asesor"
+      }
+    },
+    "empty": "No hay pólizas para renovar"
+  },
+  "compare": {
+    "title": "Comparativa de renovación",
+    "fields": {
+      "premium": "Prima",
+      "coverage": "Capital",
+      "franchise": "Franquicia",
+      "extensions": "Coberturas opcionales",
+      "added": "Añadido",
+      "removed": "Eliminado"
+    },
+    "old": "Póliza anterior",
+    "new": "Cotización actual",
+    "noDiff": "Sin cambios",
+    "back": "Volver al centro de renovación"
+  },
+  "quote": {
+    "title": "Cotización de renovación",
+    "prefillNotice": "Hemos precargado los datos del año pasado, confírmalos o ajústalos",
+    "submit": "Confirmar renovación",
+    "sections": {
+      "coverage": "Capital y fecha de efecto",
+      "contact": "Datos de contacto",
+      "declaration": "Declaración"
+    },
+    "fields": {
+      "startDate": "Fecha de efecto",
+      "coverage": "Capital (k €)",
+      "contactName": "Persona de contacto",
+      "contactPhone": "Teléfono de contacto",
+      "sameAsLastYear": "Reaplicar la información declarada el año pasado",
+      "autoRenewal": "Activar renovación automática (domiciliación bancaria)",
+      "lastYearPremium": "Prima del año pasado",
+      "lastYearCoverage": "Capital del año pasado",
+      "expiry": "Vencimiento anterior"
+    },
+    "declaration": "Confirmo que la información facilitada es veraz y exacta",
+    "toast": {
+      "prefilled": "{{count}} campos precargados",
+      "submitted": "Renovación enviada. {{product}} entrará en vigor en la fecha indicada"
+    }
+  }
+}

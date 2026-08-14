@@ -1,0 +1,170 @@
+{
+  "pageTitle": "投保",
+  "pageSubtitle": "为物流企业精选高匹配度保险方案，支持快速投保与咨询",
+  "eyebrow": "物流保险 · 移动投保",
+  "searchPlaceholder": "搜索产品名称、保险公司、保障说明",
+  "filter": {
+    "category": "保险种类",
+    "subject": "保险标的",
+    "insurer": "保险公司",
+    "industry": "行业",
+    "carModel": "车型",
+    "price": "价格",
+    "term": "保障期限",
+    "coverage": "保障范围"
+  },
+  "card": {
+    "priceFrom": "起",
+    "priceSuffix": "/年起",
+    "coverageRange": "{{min}}-{{max}}万保额",
+    "coverageUnit": "万"
+  },
+  "industries": {
+    "hosteleria": "餐饮（餐厅 / 酒吧）",
+    "comercio": "零售（超市 / 商店）",
+    "cyber": "网络责任"
+  },
+  "detail": {
+    "title": "保险详情",
+    "tabs": {
+      "introduction": "介绍",
+      "coverage": "保额",
+      "notice": "投保须知",
+      "specialTerms": "特约条款",
+      "disclosure": "告知",
+      "samplePolicy": "示例保单"
+    },
+    "viewSample": "查看示例保单 PDF",
+    "consult": "咨询",
+    "insure": "立即投保",
+    "readConfirm": "我已阅读并确认投保人声明内容，填写信息真实准确"
+  },
+  "confirmVehicle": {
+    "title": "确认车辆信息",
+    "noVehicles": "暂无绑定车辆",
+    "selectHint": "请选择要投保的车辆",
+    "redirectFailed": "生成跳转参数失败"
+  },
+  "contract": {
+    "title": "《延保服务协议》",
+    "hint": "请阅读下方《延保服务协议》条款，滑动到最底并确认以继续支付。",
+    "product": "产品信息",
+    "productName": "产品名称",
+    "price": "价格",
+    "perYear": "/年",
+    "coverage": "保障范围",
+    "prefill": "车辆与车主信息",
+    "vehicle": "车辆",
+    "plate": "车牌",
+    "vin": "VIN码",
+    "ownerMobile": "车主手机号",
+    "unknown": "—",
+    "loading": "正在加载协议…",
+    "back": "返回",
+    "signing": "签署中…",
+    "confirmPay": "确认并选择支付方式",
+    "readAll": "请阅读完整条款",
+    "payMethod": "选择支付方式",
+    "payCard": "银行卡",
+    "payWechat": "微信",
+    "payAlipay": "支付宝",
+    "cancel": "取消",
+    "sections": [
+      {
+        "title": "一、定义与适用",
+        "body": "本协议由投保人（车主）与延保服务提供方（承保人）就车辆延长保修服务达成。投保车辆以 VIN 码为准，本协议适用于投保车辆在保障期间内发生的、属于保障范围的故障维修。车主确认其在签署本协议前已完整阅读并理解全部条款。"
+      },
+      {
+        "title": "二、保障范围",
+        "body": "承保人在保障期限内，对投保车辆因制造缺陷或正常使用导致故障的下列部件承担维修费用：发动机、变速箱、电气系统（具体范围以所选产品保障范围为准）。单次维修费用以保单载明的保额上限为限。"
+      },
+      {
+        "title": "三、免责条款",
+        "body": "因下列原因导致的损失不在保障范围内：交通事故、人为损坏、未按保养手册定期保养、私自加装或改装、泡水、不可抗力、使用不当、易损件正常磨损等。具体以正式合同完整免责条款为准。"
+      },
+      {
+        "title": "四、索赔流程",
+        "body": "出险后请于 24 小时内通过门户或客服热线报案，前往授权维修网点检测维修，保留维修工单与费用票据。索赔审核通过后，维修费用由我方平台按约定支付。"
+      },
+      {
+        "title": "五、协议期限与解除",
+        "body": "保障期限自支付成功次日零时起算。投保人在犹豫期内可申请退保，全额退还保费；超过犹豫期退保需按约定扣除手续费。"
+      },
+      {
+        "title": "六、其他约定",
+        "body": "本协议未尽事宜参照《延保服务通用条款》。本协议为演示版本，正式条款以签署的电子协议 PDF 为准，双方平台电子数据与纸质文件具有同等法律效力。"
+      }
+    ]
+  },
+  "checkout": {
+    "title": "{{product}} 询价单 ({{step}}/3)",
+    "stepOf": "{{step}}/{{total}}",
+    "sections": {
+      "basicInfo": "投保人/被保险人基本信息",
+      "coreNeeds": "核心保险需求",
+      "operation": "被保险人经营情况",
+      "claimHistory": "出险及保险情况（2023-2025）",
+      "extra": "其他补充信息",
+      "declaration": "投保人声明确认"
+    },
+    "fields": {
+      "companyName": "投保人/被保险人及其子公司名称 *",
+      "companyNamePlaceholder": "请输入公司名称",
+      "employeeCount": "在职员工人数 *",
+      "ownedVehicles": "自有车辆数 *",
+      "lastYearRevenue": "上年度营业收入（单位：万元）*",
+      "estimatedRevenue": "预计保险区间内营业收入（单位：万元）*",
+      "maxClaimPerIncident": "每次事故赔偿限额（单位：万元）*",
+      "startDate": "预计/期望起保日期 *",
+      "otherNeeds": "其他保险需求",
+      "otherNeedsPlaceholder": "填写个性化需求",
+      "containerBizRatio": "集装箱/箱式货车运输业务占比（按次数，%）*",
+      "policyNo": "{{year}}年保单号",
+      "insurer": "{{year}}年承保保险公司",
+      "claimCount": "{{year}}年出险次数 *",
+      "claimAmount": "{{year}}年总索赔金额（万元）*",
+      "yearNotInsured": "未投保可不填"
+    },
+    "groups": {
+      "extensions": "扩展责任勾选",
+      "consignor": "托运人信息录入",
+      "consignee": "承托人（下家）信息录入",
+      "goodsType": "运输货物品类",
+      "route": "运输路线",
+      "year": "{{year}} 年"
+    },
+    "declaration": "我已阅读并确认投保人声明内容，填写信息真实准确",
+    "submit": "确认提交",
+    "next": "下一步",
+    "back": "上一步",
+    "options": {
+      "extColdChain": "是否扩展冷藏运输",
+      "extXinjiang": "是否扩展新疆地区承保",
+      "extQinghai": "是否扩展青海地区承保",
+      "extTibet": "是否扩展西藏地区承保",
+      "extOverload": "是否扩展临牌/超牌/仅承运不可拆卸货物车型",
+      "consignorOwner": "货主（工厂/贸易公司等物权单位）",
+      "consignorLogistics": "物流公司",
+      "consignorPlatform": "网络货运平台",
+      "consigneeLogistics": "物流公司",
+      "consigneeSubcontract": "外包合作司机",
+      "consigneePlatformDriver": "网络货运平台找的司机",
+      "consigneeSelfVehicle": "自有车辆（无承托人）",
+      "goodsFragile": "是否运输易碎品（石材/玻璃制品/光伏组件/瓶装酒等）",
+      "goodsAutoParts": "是否运输汽车配件类货物",
+      "goodsMachinery": "是否运输机械设备（非精密、非超大件）",
+      "goodsSteel": "是否运输各类钢材（钢卷、钢结构等）",
+      "goodsFood": "是否运输常温食品/饮料（袋/盒/罐/箱装）",
+      "goodsElectronics": "是否运输电子设备（液晶电视/数码产品等）",
+      "goodsSemiconductor": "是否运输半导体零配件",
+      "routeYunnanGuizhou": "是否运输至云南/贵州",
+      "routeGansuNingxia": "是否运输至甘肃/宁夏",
+      "routeInnerMongolia": "是否运输至内蒙古",
+      "routeJilinHeilongjiang": "是否运输至吉林/黑龙江",
+      "routeHainan": "是否运输至海南",
+      "routeSichuanChongqing": "是否运输至四川/重庆",
+      "useTMS": "是否使用 TMS 软件",
+      "useADAS": "是否使用 ADAS 等安全管理系统"
+    }
+  }
+}

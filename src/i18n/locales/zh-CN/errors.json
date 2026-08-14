@@ -1,0 +1,33 @@
+{
+  "toast": {
+    "policyNotFound": "保单不存在",
+    "productNotFound": "产品不存在",
+    "claimNotFound": "理赔记录不存在",
+    "claimIncomplete": "请完整填写理赔申请信息",
+    "claimSubmitted": "已为保单 {{policyNo}} 发起理赔申请",
+    "checkoutDeclarationMissing": "请勾选投保人声明确认",
+    "checkoutSubmitted": "投保信息已提交，支付接口后续接入",
+    "companyUpdated": "企业信息已更新",
+    "accountUpdated": "账户信息已更新",
+    "passwordChanged": "密码已更新",
+    "languageChanged": "语言已切换",
+    "sessionExpired": "会话已过期，请重新登录",
+    "networkError": "网络异常，请稍后重试"
+  },
+  "validation": {
+    "required": "必填项",
+    "phone": "请输入有效的手机号（{{locale}} 格式）",
+    "email": "请输入有效的邮箱",
+    "nif": "请输入有效的 NIF/CIF",
+    "iban": "请输入有效的 IBAN",
+    "minLength": "至少 {{min}} 个字符"
+  },
+  "modal": {
+    "close": "关闭",
+    "cancel": "取消",
+    "scrollHint": "请向下滚动阅读全部内容",
+    "readPrompt": "请阅读完毕后确认",
+    "readCountdown": "确认（{{count}}s）",
+    "readConfirm": "我已阅读，确认投保"
+  }
+}

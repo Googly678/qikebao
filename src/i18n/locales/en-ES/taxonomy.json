@@ -1,0 +1,34 @@
+{
+  "category": {
+    "auto": "Extended warranty",
+    "货运险": "Freight",
+    "责任险": "Liability",
+    "车辆险": "Vehicle",
+    "雇主险": "Employer / Convenio",
+    "财产险": "Property"
+  },
+  "subject": {
+    "vehicle": "Vehicle",
+    "整车货物": "Full-load cargo",
+    "零担货物": "Less-than-truckload",
+    "冷链货物": "Cold-chain goods",
+    "危险品": "Hazardous goods",
+    "电子设备": "Electronics",
+    "店铺财产": "Premises property",
+    "员工": "Employees",
+    "产品责任": "Product liability"
+  },
+  "insurer": {
+    "延保保险有限公司": "Extended Warranty Insurer",
+    "中国人保": "PICC (China)",
+    "平安保险": "Ping An (China)",
+    "太平洋保险": "CPIC (China)",
+    "中国太保": "CPIC Property",
+    "阳光保险": "Sunshine (China)",
+    "Mapfre": "Mapfre",
+    "Mutua Madrileña": "Mutua Madrileña",
+    "Ibermutua": "Ibermutua",
+    "Fraternidad-Muprespa": "Fraternidad-Muprespa",
+    "Zurich": "Zurich"
+  }
+}

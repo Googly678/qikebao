@@ -1,0 +1,144 @@
+.page { padding: var(--space-6) var(--space-6) calc(var(--space-9) + 24px); font-family: var(--font-sans); background: var(--color-parchment); min-height: 100vh; }
+.hint { margin-bottom: var(--space-4); color: var(--color-text-olive); font-size: var(--text-caption); line-height: var(--lh-body); }
+
+.card {
+  background: var(--color-ivory);
+  border: 1px solid var(--color-border-cream);
+  border-radius: var(--radius-featured);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-whisper);
+  margin-bottom: var(--space-4);
+}
+.cardTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-body-std);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-4);
+}
+.infoRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--color-border-cream);
+  font-size: var(--text-caption);
+  color: var(--color-text-stone);
+}
+.infoRow:last-child { border-bottom: none; }
+.infoRow strong {
+  color: var(--color-text-primary);
+  font-weight: 500;
+  text-align: right;
+  word-break: break-all;
+}
+
+.content {
+  height: 52vh;
+  max-height: 560px;
+  overflow: auto;
+  border: 1px solid var(--color-border-cream);
+  border-radius: var(--radius-featured);
+  background: var(--color-ivory);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-whisper);
+}
+.clause { margin-bottom: var(--space-6); }
+.clause h4 {
+  font-family: var(--font-serif);
+  font-size: var(--text-body-std);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-3);
+}
+.clause p {
+  line-height: var(--lh-body);
+  color: var(--color-text-charcoal);
+  font-size: var(--text-body-sm);
+  white-space: pre-wrap;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  background: linear-gradient(180deg, rgba(245,244,237,0) 0%, rgba(245,244,237,0.97) 40%);
+}
+.cancel {
+  background: var(--color-warm-sand);
+  border: 1px solid var(--color-border-warm);
+  padding: 12px 16px;
+  border-radius: var(--radius-standard);
+  color: var(--color-text-charcoal);
+  font-weight: 500;
+  box-shadow: var(--shadow-ring-sand);
+}
+.confirm {
+  background: var(--color-terracotta);
+  color: var(--color-ivory);
+  border: none;
+  padding: 12px 16px;
+  border-radius: var(--radius-standard);
+  font-weight: 500;
+  flex: 1;
+  box-shadow: var(--shadow-ring-terra);
+}
+.confirm:disabled {
+  background: var(--color-warm-sand);
+  color: var(--color-text-stone);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.drawerOverlay {
+  position: fixed;
+  left: 0; right: 0; top: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: var(--z-modal);
+}
+.drawer {
+  width: 100%;
+  max-width: 540px;
+  background: var(--color-ivory);
+  padding: var(--space-6);
+  border-top-left-radius: var(--radius-generous);
+  border-top-right-radius: var(--radius-generous);
+  margin-bottom: calc(var(--bottom-nav-height) + env(safe-area-inset-bottom, 0px));
+  box-shadow: var(--shadow-whisper);
+  border-top: 1px solid var(--color-border-warm);
+}
+.drawer h3 {
+  font-family: var(--font-serif);
+  font-size: var(--text-feature);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-4);
+}
+.methods { display: flex; gap: var(--space-3); margin-top: var(--space-4); }
+.method {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-standard);
+  background: var(--color-warm-sand);
+  color: var(--color-text-charcoal);
+  font-weight: 500;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.method:hover { box-shadow: var(--shadow-ring-terra); transform: translateY(-2px); }
+.close {
+  margin-top: var(--space-4);
+  background: var(--color-warm-sand);
+  border: 1px solid var(--color-border-warm);
+  padding: 12px;
+  border-radius: var(--radius-standard);
+  width: 100%;
+  color: var(--color-text-charcoal);
+}

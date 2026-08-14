@@ -1,0 +1,60 @@
+{
+  "menu": {
+    "renewal": "续保中心",
+    "vehicles": "车辆信息",
+    "accountInfo": "账户信息维护",
+    "payment": "支付与续保",
+    "settings": "系统设置",
+    "password": "密码修改",
+    "logout": "退出账户"
+  },
+  "company": {
+    "title": "企业信息",
+    "fields": {
+      "name": "企业名称",
+      "licenseNo": "统一社会信用代码",
+      "address": "企业地址",
+      "contactName": "联系人",
+      "contactPhone": "联系电话",
+      "industry": "行业类型"
+    }
+  },
+  "account": {
+    "title": "账户信息",
+    "fields": {
+      "name": "姓名",
+      "phone": "手机号",
+      "email": "邮箱"
+    }
+  },
+  "settings": {
+    "title": "系统设置",
+    "items": {
+      "notification": "消息通知",
+      "biometric": "生物识别登录",
+      "autoLogin": "自动登录"
+    },
+    "language": "语言 / Idioma / Language",
+    "updated": "设置已更新"
+  },
+  "password": {
+    "title": "修改密码",
+    "fields": {
+      "old": "旧密码",
+      "new": "新密码",
+      "confirm": "确认新密码"
+    },
+    "toast": {
+      "incomplete": "请完整填写密码信息",
+      "mismatch": "两次输入的新密码不一致",
+      "success": "密码修改成功，请重新登录",
+      "submit": "提交"
+    }
+  },
+  "vehicles": {
+    "title": "我的车辆",
+    "plate": "车牌",
+    "boundAt": "绑定时间",
+    "empty": "暂无绑定车辆"
+  }
+}

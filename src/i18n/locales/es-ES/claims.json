@@ -1,0 +1,101 @@
+{
+  "pageTitle": "Siniestros",
+  "pageSubtitle": "Sigue el estado de tus siniestros, envía documentación y completa el proceso online",
+  "searchPlaceholder": "Buscar por nº de siniestro, asegurado o póliza",
+  "newClaim": "Nuevo siniestro",
+  "empty": {
+    "noClaims": "No hay siniestros"
+  },
+  "filter": {
+    "category": "Tipo de seguro",
+    "insuredName": "Asegurado",
+    "claimType": "Tipo de siniestro"
+  },
+  "card": {
+    "reportDate": "Fecha de declaración",
+    "view": "Ver detalle"
+  },
+  "create": {
+    "title": "Declarar siniestro",
+    "summary": {
+      "eyebrow": "Inicio del siniestro",
+      "selectPolicy": "Selecciona una póliza",
+      "policyNo": "Nº de póliza",
+      "insured": "Asegurado",
+      "category": "Tipo",
+      "remainingCoverage": "Capital restante"
+    },
+    "sectionTitle": "Datos de la solicitud",
+    "selectPolicy": "Selecciona una póliza",
+    "selectClaimType": "Seleccione el tipo de siniestro",
+    "fields": {
+      "policy": "Póliza asociada",
+      "claimType": "Tipo de siniestro",
+      "incidentDate": "Fecha del siniestro",
+      "lossDescription": "Descripción de los daños",
+      "lossDescriptionPlaceholder": "Describe cómo ocurrió, los bienes afectados y el estado actual",
+      "contactName": "Persona de contacto",
+      "contactPhone": "Teléfono de contacto"
+    },
+    "types": {
+      "cargo-damage": "Daños a mercancía",
+      "theft": "Robo / hurto",
+      "third-party-liability": "Responsabilidad civil a terceros",
+      "workplace-injury": "Accidente laboral",
+      "vehicle-damage": "Daños al vehículo",
+      "customer-slip": "Resbalón de cliente (hostelería / comercio)",
+      "food-poisoning": "Intoxicación alimentaria",
+      "employee-cut": "Corte / accidente leve de empleado",
+      "water-damage": "Daños por agua / escape",
+      "breakage": "Rotura de cristal / rótulo",
+      "fire": "Incendio / explosión",
+      "cyber-incident": "Ciberincidente / datos"
+    },
+    "submit": "Enviar declaración",
+    "cancel": "Cancelar"
+  },
+  "detail": {
+    "title": "Detalle del siniestro",
+    "noLossItems": "Sin partidas de pérdida",
+    "claimNo": "Nº de siniestro",
+    "reportDate": "Fecha de declaración",
+    "claimType": "Tipo de siniestro",
+    "policyNo": "Póliza",
+    "progress": "Progreso",
+    "lossItems": "Bienes dañados",
+    "lossAssessment": "Informe de peritación",
+    "attachments": "Documentos adjuntos",
+    "uploadDocs": "Adjuntar documentación",
+    "submitDocs": "Enviar documentación",
+    "contactSupport": "Contactar con soporte",
+    "documentsSubmitted": "Documentación enviada, el tramitador la revisará en breve",
+    "inProgress": "En curso",
+    "steps": {
+      "report": "Recepción",
+      "onsite": "Inspección",
+      "assess": "Tasación",
+      "review": "Aprobación",
+      "payout": "Pago"
+    },
+    "demo": {
+      "lossItems": {
+        "electronic-components": "Componentes electrónicos",
+        "cold-chain-frozen-food": "Alimentos congelados",
+        "third-party-vehicle": "Vehículo tercero"
+      },
+      "lossItemDescriptions": {
+        "electronic-components": "Vuelco del vehículo durante el transporte que provoca la pérdida total de la mercancía.",
+        "cold-chain-frozen-food": "Avería del equipo de frío que interrumpe la cadena de frío y deteriora los productos.",
+        "third-party-vehicle": "Colisión por alcance contra un turismo tercero, con daños materiales a terceros."
+      },
+      "assessments": {
+        "assess-electronic": "Tras la peritación, la mercancía queda totalmente destruida por el vuelco. Pérdida tasada en 35.000 €, deducible absoluto de 1.000 €, indemnización final 34.000 €.",
+        "assess-cold-chain": "Tasación en curso. Importe estimado entre 25.000 € y 28.000 €.",
+        "assess-pending": "Expediente en fase inicial, a la espera de la inspección in situ."
+      },
+      "attachmentNames": {
+        "Informe de liquidación.pdf": "Informe de liquidación.pdf"
+      }
+    }
+  }
+}

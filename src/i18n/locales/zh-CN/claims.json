@@ -1,0 +1,101 @@
+{
+  "pageTitle": "理赔",
+  "pageSubtitle": "随时跟进理赔进度，在线提交资料，高效完成理赔流程",
+  "searchPlaceholder": "搜索报案号、被保险人、保单号",
+  "newClaim": "新建理赔申请",
+  "empty": {
+    "noClaims": "暂无理赔记录"
+  },
+  "filter": {
+    "category": "保险种类",
+    "insuredName": "被保险人",
+    "claimType": "理赔类型"
+  },
+  "card": {
+    "reportDate": "报案时间",
+    "view": "查看详情"
+  },
+  "create": {
+    "title": "新建理赔申请",
+    "summary": {
+      "eyebrow": "理赔发起",
+      "selectPolicy": "请选择保单",
+      "policyNo": "保单号",
+      "insured": "被保险人",
+      "category": "险种",
+      "remainingCoverage": "剩余保额"
+    },
+    "sectionTitle": "申请信息",
+    "selectPolicy": "请选择保单",
+    "selectClaimType": "请选择理赔类型",
+    "fields": {
+      "policy": "关联保单",
+      "claimType": "理赔类型",
+      "incidentDate": "出险日期",
+      "lossDescription": "损失描述",
+      "lossDescriptionPlaceholder": "请描述事故经过、损失标的和当前处理情况",
+      "contactName": "联系人",
+      "contactPhone": "联系电话"
+    },
+    "types": {
+      "cargo-damage": "货物损失",
+      "theft": "盗窃损失",
+      "third-party-liability": "第三者责任",
+      "workplace-injury": "工伤",
+      "vehicle-damage": "车辆损失",
+      "customer-slip": "顾客滑倒",
+      "food-poisoning": "食物中毒",
+      "employee-cut": "员工割伤 / 工伤",
+      "water-damage": "水损 / 渗漏",
+      "breakage": "玻璃 / 招牌破损",
+      "fire": "火灾 / 爆炸",
+      "cyber-incident": "网络 / 数据事件"
+    },
+    "submit": "提交理赔申请",
+    "cancel": "取消"
+  },
+  "detail": {
+    "title": "理赔详情",
+    "noLossItems": "暂无损失项目",
+    "claimNo": "报案号",
+    "reportDate": "报案日期",
+    "claimType": "理赔类型",
+    "policyNo": "保单号",
+    "progress": "处理进度",
+    "lossItems": "损失项目",
+    "lossAssessment": "核定说明",
+    "attachments": "附件",
+    "uploadDocs": "选择单证文件",
+    "submitDocs": "提交单证",
+    "contactSupport": "联系客服",
+    "documentsSubmitted": "单证提交成功，理赔专员将尽快审核",
+    "inProgress": "进行中",
+    "steps": {
+      "report": "报案受理",
+      "onsite": "现场勘查",
+      "assess": "损失核定",
+      "review": "赔付审核",
+      "payout": "赔款到账"
+    },
+    "demo": {
+      "lossItems": {
+        "electronic-components": "电子元件货物",
+        "cold-chain-frozen-food": "冷冻食品",
+        "third-party-vehicle": "第三者车辆"
+      },
+      "lossItemDescriptions": {
+        "electronic-components": "运输途中车辆侧翻导致货物全损",
+        "cold-chain-frozen-food": "制冷设备故障导致冷链中断，货物变质",
+        "third-party-vehicle": "运输车辆追尾第三者轿车，造成第三者财产损失"
+      },
+      "assessments": {
+        "assess-electronic": "经查勘评估，货物因车辆侧翻完全损毁，核定损失金额 35,000 元，扣除绝对免赔额 1,000 元，最终赔付 34,000 元。",
+        "assess-cold-chain": "正在进行损失核定，预计核定金额 25,000-28,000 元。",
+        "assess-pending": "案件处于初始受理阶段，等待现场勘查安排。"
+      },
+      "attachmentNames": {
+        "Informe de liquidación.pdf": "理赔决定书.pdf"
+      }
+    }
+  }
+}

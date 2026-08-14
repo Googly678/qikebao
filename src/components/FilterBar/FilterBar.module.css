@@ -1,0 +1,107 @@
+.container {
+  position: relative;
+  z-index: var(--z-modal);
+}
+
+.bar {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  overflow-x: auto;
+  padding: var(--space-4) 0;
+  scrollbar-width: none;
+}
+
+.bar::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  background: var(--color-warm-sand);
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-standard);
+  box-shadow: var(--shadow-ring-sand);
+  padding: 0 12px;
+  height: 36px;
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  font-weight: 400;
+  color: var(--color-text-charcoal);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.chipActive {
+  background: rgba(201, 100, 66, 0.12);
+  border-color: rgba(201, 100, 66, 0.35);
+  color: var(--color-terracotta);
+}
+
+.chipOpen {
+  background: rgba(201, 100, 66, 0.12);
+  border-color: rgba(201, 100, 66, 0.45);
+  color: var(--color-terracotta);
+}
+
+.arrow {
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+/* ── Dropdown Panel ── */
+.dropdown {
+  position: absolute;
+  top: calc(100% - var(--space-4));
+  left: 0;
+  right: 0;
+  background: var(--color-ivory);
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-standard);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  animation: slideDown 0.2s cubic-bezier(0.2, 0, 0, 1);
+  transform-origin: top center;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--z-modal) - 1);
+}
+
+.option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-std);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border-cream);
+}
+
+.option:last-child {
+  border-bottom: none;
+}
+
+.optionActive {
+  color: var(--color-terracotta);
+  font-weight: 500;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: scaleY(0.85) translateY(-8px); }
+  to   { opacity: 1; transform: scaleY(1) translateY(0); }
+}

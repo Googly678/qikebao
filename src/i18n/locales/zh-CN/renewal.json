@@ -1,0 +1,74 @@
+{
+  "center": {
+    "title": "续保中心",
+    "subtitle": "管理即将到期的保单、查看报价、追踪续保进度",
+    "kpi": {
+      "expiring30": "30天内到期",
+      "expiring60": "60天内到期",
+      "expiring90": "90天内到期",
+      "expectedPremium": "预计总保费",
+      "savings": "可节省金额"
+    },
+    "list": {
+      "policyNo": "保单号",
+      "productName": "产品名称",
+      "insurer": "保险公司",
+      "expiry": "到期日",
+      "daysLeft_one": "还剩 {{count}} 天",
+      "daysLeft_other": "还剩 {{count}} 天",
+      "lastYearPremium": "上年保费",
+      "nextPremium": "续保保费",
+      "delta": "变动",
+      "deltaUp": "+{{value}}%",
+      "deltaDown": "{{value}}%",
+      "actions": {
+        "quote": "查看报价",
+        "renew": "立即续保",
+        "compare": "对比",
+        "talk": "联系顾问"
+      }
+    },
+    "empty": "暂无可续保保单"
+  },
+  "compare": {
+    "title": "续保对比",
+    "fields": {
+      "premium": "保费",
+      "coverage": "保额",
+      "franchise": "免赔额",
+      "extensions": "扩展责任",
+      "added": "新增",
+      "removed": "移除"
+    },
+    "old": "上年保单",
+    "new": "本次报价",
+    "noDiff": "无差异",
+    "back": "返回续保中心"
+  },
+  "quote": {
+    "title": "续保报价",
+    "prefillNotice": "已为您预填上年信息，请确认或调整",
+    "submit": "确认续保",
+    "sections": {
+      "coverage": "保额与起保",
+      "contact": "联系方式",
+      "declaration": "续保声明确认"
+    },
+    "fields": {
+      "startDate": "起保日期",
+      "coverage": "保额（k €）",
+      "contactName": "联系人",
+      "contactPhone": "联系电话",
+      "sameAsLastYear": "上年披露信息继续适用",
+      "autoRenewal": "开通自动续保（domiciliación bancaria）",
+      "lastYearPremium": "上年保费",
+      "lastYearCoverage": "上年保额",
+      "expiry": "上年到期日"
+    },
+    "declaration": "我已阅读并确认续保信息真实准确",
+    "toast": {
+      "prefilled": "已预填 {{count}} 个字段",
+      "submitted": "续保信息已提交，{{product}} 将于生效日自动承保"
+    }
+  }
+}

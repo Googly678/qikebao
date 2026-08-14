@@ -1,0 +1,154 @@
+.page {
+  min-height: 100%;
+  background: var(--color-parchment);
+}
+
+.hero {
+  background: var(--color-near-black);
+  color: var(--color-ivory);
+  padding: 56px 20px 32px;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-coral);
+  letter-spacing: var(--ls-overline);
+  text-transform: uppercase;
+}
+
+.pageTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-sub-lg);
+  font-weight: 500;
+  line-height: var(--lh-sub-lg);
+  margin-bottom: 8px;
+  color: var(--color-ivory);
+}
+
+.pageSubtitle {
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  line-height: var(--lh-body);
+  color: var(--color-text-silver);
+}
+
+.searchSection {
+  background: rgba(245, 244, 237, 0.93);
+  padding: 12px 20px 8px;
+  position: sticky;
+  top: 0;
+  z-index: var(--z-nav);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--color-border-cream);
+}
+
+.list {
+  padding: 16px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  text-align: left;
+  background: var(--color-ivory);
+  border-radius: var(--radius-featured);
+  padding: 20px;
+  border: 1px solid var(--color-border-cream);
+  box-shadow: var(--shadow-whisper);
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-whisper), var(--shadow-ring-sand);
+}
+
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.insurer {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-terracotta);
+  letter-spacing: var(--ls-label);
+}
+
+.cardTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-sub-sm);
+  font-weight: 500;
+  line-height: var(--lh-sub-sm);
+  color: var(--color-text-primary);
+}
+
+.price {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-near-black);
+  flex-shrink: 0;
+}
+
+.price small {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 400;
+  color: var(--color-text-stone);
+}
+
+.summary {
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  line-height: var(--lh-body);
+  color: var(--color-text-olive);
+  margin-bottom: 12px;
+}
+
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: var(--radius-high);
+  background: rgba(201, 100, 66, 0.10);
+  border: 1px solid rgba(201, 100, 66, 0.20);
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-terracotta);
+  letter-spacing: var(--ls-label);
+}
+
+.coverageRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border-cream);
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  color: var(--color-text-stone);
+}
+
+.coverageRow strong {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
