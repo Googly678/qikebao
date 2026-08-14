@@ -1,9 +1,11 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import styles from './PolicyPage.module.css'
 
 export default function PolicyPage() {
   const { t } = useTranslation(['policy', 'common'])
+  const navigate = useNavigate()
   const [keyword] = useState('')
 
   // Load persisted policies from localStorage (added by mock payment flow)
@@ -58,7 +60,7 @@ export default function PolicyPage() {
           <div className={styles.emptyArea}>{t('policy:empty.noPolicies', '暂无保单')}</div>
         ) : (
           filtered.map((p) => (
-            <button key={p.id} className={styles.card} onClick={() => window.location.href = `/policy/${p.id}/document`}>
+            <button key={p.id} className={styles.card} onClick={() => navigate(`/policy/${p.id}/document`)}>
               <div className={styles.cardHead}>
                 <div>
                   <span className={styles.insurer}>{p.productName}</span>
