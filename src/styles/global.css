@@ -135,10 +135,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 
 /* ── Body Lock (when modal open) ── */
+/* 仅锁定滚动；不再把 body 设为 fixed，避免 fixed 子元素（模态框）
+   的坐标基准错乱导致 slideUp 动画卡在初始帧、modal 被移到视口外 */
 body.modal-open {
   overflow: hidden;
-  position: fixed;
-  width: 100%;
 }
 
 /* ── Language-aware typography (locale-driven, no dir flip yet) ── */

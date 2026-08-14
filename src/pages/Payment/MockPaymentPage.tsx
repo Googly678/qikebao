@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import styles from './MockPaymentPage.module.css'
-import { API_BASE } from '../../config'
+import { saveOrder } from '../../services/partner'
 
 export default function MockPaymentPage() {
   const { t } = useTranslation(['payment', 'common'])
@@ -31,11 +31,8 @@ export default function MockPaymentPage() {
         timestamp: Date.now(),
       }
 
-      await fetch(`${API_BASE}/protocol/return`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
-      })
+      // 后端可用时 POST /protocol/return(PAID)；纯静态托管时降级写 localStorage
+      await saveOrder(body)
 
       // Persist a demo policy entry to localStorage so the Policy page shows it
       let savedPolicy: any = null

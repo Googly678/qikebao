@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import { useAuthStore } from '../../store/auth'
 import { useUIStore } from '../../store/ui'
-import { API_BASE } from '../../config'
+import { saveOrder } from '../../services/partner'
 import styles from './ContractTermsPage.module.css'
 
 type Prefill = {
@@ -162,11 +162,8 @@ export default function ContractTermsPage() {
         vehicle,
         mobile: prefill.mobile || userInfo?.phone || '',
       }
-      await fetch(`${API_BASE}/protocol/return`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      })
+      // 后端可用时落库订单（SIGNED）；纯静态托管时降级写 localStorage
+      await saveOrder(payload)
       setLastOrder(payload)
       setVisibleDrawer(true)
     } catch (e) {

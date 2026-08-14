@@ -5,7 +5,8 @@ import { useTranslation } from 'react-i18next'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import { useAuthStore } from '../../store/auth'
 import { useUIStore } from '../../store/ui'
-import { API_BASE, DEFAULT_CHANNEL_ID } from '../../config'
+import { DEFAULT_CHANNEL_ID } from '../../config'
+import { generateRedirect } from '../../services/partner'
 import styles from './ConfirmVehiclePage.module.css'
 
 export default function ConfirmVehiclePage() {
@@ -46,19 +47,15 @@ export default function ConfirmVehiclePage() {
     setSubmittingVin(v.vin)
     try {
       // F-RC-004 跳转参数组装：VIN、车主手机号、产品SKU、渠道ID
-      // 加密与签名由服务端完成（AES-256-GCM + HMAC-SHA256）
+      // 后端可用时由服务端加密+签名（AES-256-GCM + HMAC-SHA256）；
+      // 部署到纯静态托管（GitHub Pages）时自动降级为前端模拟
       const mobile = userInfo?.phone || ''
-      const resp = await fetch(`${API_BASE}/generate-redirect`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ vin: v.vin, mobile, product_sku: id, channel_id: DEFAULT_CHANNEL_ID }),
+      const { redirect } = await generateRedirect({
+        vin: v.vin,
+        mobile,
+        product_sku: id || '',
+        channel_id: DEFAULT_CHANNEL_ID,
       })
-      const body = await resp.json()
-      if (!resp.ok || body.code !== 200) {
-        addToast(body?.message || t('insurance:confirmVehicle.redirectFailed', '生成跳转参数失败'), 'error')
-        setSubmittingVin(null)
-        return
-      }
       // 预填信息先落 sessionStorage，落地页解析通过后会合并车辆信息
       sessionStorage.setItem('prefill_order', JSON.stringify({
         vin: v.vin,
@@ -67,7 +64,7 @@ export default function ConfirmVehiclePage() {
         channel_id: DEFAULT_CHANNEL_ID,
         vehicle: v,
       }))
-      navigate(body.redirect)
+      navigate(redirect)
     } catch (e: any) {
       addToast(e?.message || t('insurance:confirmVehicle.redirectFailed', '生成跳转参数失败'), 'error')
       setSubmittingVin(null)

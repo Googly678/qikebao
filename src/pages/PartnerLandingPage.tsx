@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import PageHeader from '../components/PageHeader/PageHeader'
-import { API_BASE, DEFAULT_CHANNEL_ID } from '../config'
+import { DEFAULT_CHANNEL_ID } from '../config'
+import { parseRedirect } from '../services/partner'
 import styles from './PartnerLandingPage.module.css'
 
 // This page simulates 我方平台签约落地页 which receives encrypted params from 人车行平台
@@ -28,23 +29,8 @@ export default function PartnerLandingPage() {
           return
         }
 
-        // Ask server to validate and decrypt params (server-side verify & decrypt)
-        const params = new URLSearchParams({ vin: vinEnc, mobile: mobileEnc, product_sku: String(product_sku), channel_id: String(channel_id), timestamp: String(timestamp), sign: String(sign) })
-        const resp = await fetch(`${API_BASE}/parse-redirect?${params.toString()}`)
-        if (!resp.ok) {
-          const body = await resp.json().catch(() => ({}))
-          setError(body.message || '签名校验或解密失败')
-          setLoading(false)
-          return
-        }
-        const body = await resp.json()
-        const data = body.data
-        if (!data) {
-          setError('解析返回异常')
-          setLoading(false)
-          return
-        }
-
+        // F-OP-001 参数解析：后端可用时服务端验签+解密；纯静态托管时前端降级
+        const data = await parseRedirect(new URLSearchParams(location.search))
         const { vin, mobile } = data
 
         // 合并跳转前暂存的车辆信息（ConfirmVehiclePage 写入），供签约页预填展示
